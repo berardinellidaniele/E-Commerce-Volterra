@@ -1,2 +1,10 @@
-# E-Commerce-Volterra
-Progetto di un e-commerce su Windows Forms C#
+### Da fare
+- [ ] //  
+- [ ] //  
+- [ ] //
+
+### In corso
+- [ ] //  
+
+### Fatto ✓
+- [x] //  
