@@ -10,4 +10,3 @@ Un progetto per gestire un e-commerce in Windows Forms C#
 
 ### Fatto ✓
 - [x] //  
-___
