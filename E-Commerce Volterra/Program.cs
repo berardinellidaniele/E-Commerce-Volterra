@@ -16,7 +16,7 @@ namespace E_Commerce_Volterra
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Principale());
         }
     }
 }
