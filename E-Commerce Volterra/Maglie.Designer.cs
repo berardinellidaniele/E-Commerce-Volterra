@@ -69,6 +69,7 @@
             this.prodotto1 = new E_Commerce_Volterra.Prodotto();
             this.prodotto2 = new E_Commerce_Volterra.Prodotto();
             this.prodotto3 = new E_Commerce_Volterra.Prodotto();
+            this.prodotto4 = new E_Commerce_Volterra.Prodotto();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbYouTubeM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbFacebookM)).BeginInit();
@@ -681,10 +682,12 @@
             this.flowLayout.Controls.Add(this.prodotto1);
             this.flowLayout.Controls.Add(this.prodotto2);
             this.flowLayout.Controls.Add(this.prodotto3);
+            this.flowLayout.Controls.Add(this.prodotto4);
             this.flowLayout.Location = new System.Drawing.Point(23, 96);
             this.flowLayout.Name = "flowLayout";
             this.flowLayout.Size = new System.Drawing.Size(861, 619);
             this.flowLayout.TabIndex = 4;
+            this.flowLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayout_Paint);
             // 
             // bunifuTextBox1
             // 
@@ -761,6 +764,7 @@
             this.bunifuTextBox1.TextPlaceholder = "Cerca";
             this.bunifuTextBox1.UseSystemPasswordChar = false;
             this.bunifuTextBox1.WordWrap = true;
+            this.bunifuTextBox1.TextChanged += new System.EventHandler(this.bunifuTextBox1_TextChanged);
             // 
             // prodotto10
             // 
@@ -783,7 +787,8 @@
             this.prodotto10.Location = new System.Drawing.Point(3, 3);
             this.prodotto10.Name = "prodotto10";
             this.prodotto10.Nome = "White Balenciaga";
-            this.prodotto10.Prezzo = "";
+            this.prodotto10.Prezzo = "29.99€";
+            this.prodotto10.Recensioni = 3;
             this.prodotto10.ShowBorders = true;
             this.prodotto10.Size = new System.Drawing.Size(272, 233);
             this.prodotto10.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -809,8 +814,9 @@
             this.prodotto11.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto11.Immagine")));
             this.prodotto11.Location = new System.Drawing.Point(281, 3);
             this.prodotto11.Name = "prodotto11";
-            this.prodotto11.Nome = "Jeans Blue";
-            this.prodotto11.Prezzo = "8.99€";
+            this.prodotto11.Nome = "Black Balenciaga";
+            this.prodotto11.Prezzo = "29.99€";
+            this.prodotto11.Recensioni = 4;
             this.prodotto11.ShowBorders = true;
             this.prodotto11.Size = new System.Drawing.Size(272, 233);
             this.prodotto11.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -836,8 +842,9 @@
             this.prodotto12.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto12.Immagine")));
             this.prodotto12.Location = new System.Drawing.Point(559, 3);
             this.prodotto12.Name = "prodotto12";
-            this.prodotto12.Nome = "Jeans Blue";
-            this.prodotto12.Prezzo = "8.99€";
+            this.prodotto12.Nome = "Brown CK";
+            this.prodotto12.Prezzo = "43.50€";
+            this.prodotto12.Recensioni = 3;
             this.prodotto12.ShowBorders = true;
             this.prodotto12.Size = new System.Drawing.Size(272, 233);
             this.prodotto12.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -863,8 +870,9 @@
             this.prodotto13.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto13.Immagine")));
             this.prodotto13.Location = new System.Drawing.Point(3, 242);
             this.prodotto13.Name = "prodotto13";
-            this.prodotto13.Nome = "Jeans Blue";
-            this.prodotto13.Prezzo = "8.99€";
+            this.prodotto13.Nome = "Black Octopus";
+            this.prodotto13.Prezzo = "49.00€";
+            this.prodotto13.Recensioni = 3;
             this.prodotto13.ShowBorders = true;
             this.prodotto13.Size = new System.Drawing.Size(272, 233);
             this.prodotto13.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -890,8 +898,9 @@
             this.prodotto14.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto14.Immagine")));
             this.prodotto14.Location = new System.Drawing.Point(281, 242);
             this.prodotto14.Name = "prodotto14";
-            this.prodotto14.Nome = "Jeans Blue";
-            this.prodotto14.Prezzo = "8.99€";
+            this.prodotto14.Nome = "Black CK";
+            this.prodotto14.Prezzo = "39.00€";
+            this.prodotto14.Recensioni = 3;
             this.prodotto14.ShowBorders = true;
             this.prodotto14.Size = new System.Drawing.Size(272, 233);
             this.prodotto14.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -917,8 +926,9 @@
             this.prodotto15.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto15.Immagine")));
             this.prodotto15.Location = new System.Drawing.Point(559, 242);
             this.prodotto15.Name = "prodotto15";
-            this.prodotto15.Nome = "Jeans Blue";
-            this.prodotto15.Prezzo = "8.99€";
+            this.prodotto15.Nome = "White Nike";
+            this.prodotto15.Prezzo = "22.47€";
+            this.prodotto15.Recensioni = 3;
             this.prodotto15.ShowBorders = true;
             this.prodotto15.Size = new System.Drawing.Size(272, 233);
             this.prodotto15.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -944,8 +954,9 @@
             this.prodotto16.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto16.Immagine")));
             this.prodotto16.Location = new System.Drawing.Point(3, 481);
             this.prodotto16.Name = "prodotto16";
-            this.prodotto16.Nome = "Jeans Blue";
-            this.prodotto16.Prezzo = "8.99€";
+            this.prodotto16.Nome = "White Ralph";
+            this.prodotto16.Prezzo = "54.95€";
+            this.prodotto16.Recensioni = 3;
             this.prodotto16.ShowBorders = true;
             this.prodotto16.Size = new System.Drawing.Size(272, 233);
             this.prodotto16.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -971,8 +982,9 @@
             this.prodotto17.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto17.Immagine")));
             this.prodotto17.Location = new System.Drawing.Point(281, 481);
             this.prodotto17.Name = "prodotto17";
-            this.prodotto17.Nome = "Jeans Blue";
-            this.prodotto17.Prezzo = "8.99€";
+            this.prodotto17.Nome = "Ralph Polo Bear";
+            this.prodotto17.Prezzo = "63.99€";
+            this.prodotto17.Recensioni = 3;
             this.prodotto17.ShowBorders = true;
             this.prodotto17.Size = new System.Drawing.Size(272, 233);
             this.prodotto17.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -998,12 +1010,14 @@
             this.prodotto18.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto18.Immagine")));
             this.prodotto18.Location = new System.Drawing.Point(559, 481);
             this.prodotto18.Name = "prodotto18";
-            this.prodotto18.Nome = "Jeans Blue";
-            this.prodotto18.Prezzo = "8.99€";
+            this.prodotto18.Nome = "Gray Ralph";
+            this.prodotto18.Prezzo = "55.00€";
+            this.prodotto18.Recensioni = 3;
             this.prodotto18.ShowBorders = true;
             this.prodotto18.Size = new System.Drawing.Size(272, 233);
             this.prodotto18.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
             this.prodotto18.TabIndex = 8;
+            this.prodotto18.Click += new System.EventHandler(this.prodotto18_Click);
             // 
             // prodotto19
             // 
@@ -1025,8 +1039,9 @@
             this.prodotto19.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto19.Immagine")));
             this.prodotto19.Location = new System.Drawing.Point(3, 720);
             this.prodotto19.Name = "prodotto19";
-            this.prodotto19.Nome = "Jeans Blue";
-            this.prodotto19.Prezzo = "8.99€";
+            this.prodotto19.Nome = "Black Ralph";
+            this.prodotto19.Prezzo = "55.00€";
+            this.prodotto19.Recensioni = 3;
             this.prodotto19.ShowBorders = true;
             this.prodotto19.Size = new System.Drawing.Size(272, 233);
             this.prodotto19.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -1052,8 +1067,9 @@
             this.prodotto20.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto20.Immagine")));
             this.prodotto20.Location = new System.Drawing.Point(281, 720);
             this.prodotto20.Name = "prodotto20";
-            this.prodotto20.Nome = "Jeans Blue";
-            this.prodotto20.Prezzo = "8.99€";
+            this.prodotto20.Nome = "White Stone";
+            this.prodotto20.Prezzo = "95.50€";
+            this.prodotto20.Recensioni = 3;
             this.prodotto20.ShowBorders = true;
             this.prodotto20.Size = new System.Drawing.Size(272, 233);
             this.prodotto20.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -1079,8 +1095,9 @@
             this.prodotto21.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto21.Immagine")));
             this.prodotto21.Location = new System.Drawing.Point(559, 720);
             this.prodotto21.Name = "prodotto21";
-            this.prodotto21.Nome = "Jeans Blue";
-            this.prodotto21.Prezzo = "8.99€";
+            this.prodotto21.Nome = "Black Stone";
+            this.prodotto21.Prezzo = "95.50€";
+            this.prodotto21.Recensioni = 3;
             this.prodotto21.ShowBorders = true;
             this.prodotto21.Size = new System.Drawing.Size(272, 233);
             this.prodotto21.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -1106,8 +1123,9 @@
             this.prodotto1.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto1.Immagine")));
             this.prodotto1.Location = new System.Drawing.Point(3, 959);
             this.prodotto1.Name = "prodotto1";
-            this.prodotto1.Nome = "Jeans Blue";
-            this.prodotto1.Prezzo = "8.99€";
+            this.prodotto1.Nome = "Red Stone";
+            this.prodotto1.Prezzo = "95.50€";
+            this.prodotto1.Recensioni = 3;
             this.prodotto1.ShowBorders = true;
             this.prodotto1.Size = new System.Drawing.Size(272, 233);
             this.prodotto1.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -1133,8 +1151,9 @@
             this.prodotto2.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto2.Immagine")));
             this.prodotto2.Location = new System.Drawing.Point(281, 959);
             this.prodotto2.Name = "prodotto2";
-            this.prodotto2.Nome = "Jeans Blue";
-            this.prodotto2.Prezzo = "8.99€";
+            this.prodotto2.Nome = "White Supreme";
+            this.prodotto2.Prezzo = "147.00€";
+            this.prodotto2.Recensioni = 3;
             this.prodotto2.ShowBorders = true;
             this.prodotto2.Size = new System.Drawing.Size(272, 233);
             this.prodotto2.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -1160,12 +1179,41 @@
             this.prodotto3.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto3.Immagine")));
             this.prodotto3.Location = new System.Drawing.Point(559, 959);
             this.prodotto3.Name = "prodotto3";
-            this.prodotto3.Nome = "Jeans Blue";
-            this.prodotto3.Prezzo = "8.99€";
+            this.prodotto3.Nome = "White VXUG";
+            this.prodotto3.Prezzo = "28.18€";
+            this.prodotto3.Recensioni = 3;
             this.prodotto3.ShowBorders = true;
             this.prodotto3.Size = new System.Drawing.Size(272, 233);
             this.prodotto3.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
             this.prodotto3.TabIndex = 14;
+            // 
+            // prodotto4
+            // 
+            this.prodotto4.AllowAnimations = false;
+            this.prodotto4.AllowBorderColorChanges = false;
+            this.prodotto4.AllowMouseEffects = false;
+            this.prodotto4.AnimationSpeed = 200;
+            this.prodotto4.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto4.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto4.BorderColor = System.Drawing.Color.White;
+            this.prodotto4.BorderRadius = 5;
+            this.prodotto4.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto4.BorderThickness = 1;
+            this.prodotto4.ColorContrastOnClick = 30;
+            this.prodotto4.ColorContrastOnHover = 30;
+            this.prodotto4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto4.Image = null;
+            this.prodotto4.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto4.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto4.Immagine")));
+            this.prodotto4.Location = new System.Drawing.Point(3, 1198);
+            this.prodotto4.Name = "prodotto4";
+            this.prodotto4.Nome = "Ciao";
+            this.prodotto4.Prezzo = "100";
+            this.prodotto4.Recensioni = 5;
+            this.prodotto4.ShowBorders = true;
+            this.prodotto4.Size = new System.Drawing.Size(272, 233);
+            this.prodotto4.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto4.TabIndex = 15;
             // 
             // Maglie
             // 
@@ -1223,5 +1271,6 @@
         private Prodotto prodotto1;
         private Prodotto prodotto2;
         private Prodotto prodotto3;
+        private Prodotto prodotto4;
     }
 }

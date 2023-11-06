@@ -235,6 +235,12 @@
     <Compile Include="Maglie.Designer.cs">
       <DependentUpon>Maglie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Oggetto_Carrello.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Oggetto_Carrello.Designer.cs">
+      <DependentUpon>Oggetto_Carrello.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pantaloni.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -274,8 +280,14 @@
       <DependentUpon>Scarpe.cs</DependentUpon>
     </Compile>
     <Compile Include="Utente.cs" />
+    <EmbeddedResource Include="Carrello.resx">
+      <DependentUpon>Carrello.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Maglie.resx">
       <DependentUpon>Maglie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oggetto_Carrello.resx">
+      <DependentUpon>Oggetto_Carrello.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pantaloni.resx">
       <DependentUpon>Pantaloni.cs</DependentUpon>

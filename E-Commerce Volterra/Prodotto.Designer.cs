@@ -41,6 +41,7 @@
             // pcbCarrello
             // 
             this.pcbCarrello.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pcbCarrello.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pcbCarrello.Image = ((System.Drawing.Image)(resources.GetObject("pcbCarrello.Image")));
             this.pcbCarrello.Location = new System.Drawing.Point(265, 9);
             this.pcbCarrello.Name = "pcbCarrello";
@@ -48,6 +49,7 @@
             this.pcbCarrello.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbCarrello.TabIndex = 0;
             this.pcbCarrello.TabStop = false;
+            this.pcbCarrello.Click += new System.EventHandler(this.pcbCarrello_Click);
             // 
             // lblNome
             // 

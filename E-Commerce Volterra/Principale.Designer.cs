@@ -1617,6 +1617,7 @@
             this.bunifuTextBox1.TextPlaceholder = "Cerca";
             this.bunifuTextBox1.UseSystemPasswordChar = false;
             this.bunifuTextBox1.WordWrap = true;
+            this.bunifuTextBox1.TextChanged += new System.EventHandler(this.bunifuTextBox1_TextChanged);
             // 
             // bunifuPages1
             // 

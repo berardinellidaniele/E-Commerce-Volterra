@@ -61,5 +61,22 @@ namespace E_Commerce_Volterra
 
             System.Diagnostics.Process.Start(url);
         }
+
+        private void bunifuTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            string stringa = bunifuTextBox1.Text.ToLower();
+
+            foreach (Prodotto prodotto in flowLayout.Controls)
+            {
+                if (prodotto.Nome.ToLower().Contains(stringa))
+                {
+                    prodotto.Visible = true;
+                }
+                else
+                {
+                    prodotto.Visible = false;
+                }
+            }
+        }
     }
 }

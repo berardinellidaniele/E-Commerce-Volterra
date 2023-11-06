@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pantaloni));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges15 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnHomeP = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -52,7 +52,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
             this.PagePantaloni = new System.Windows.Forms.TabPage();
-            this.flowLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.flawlayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.prodotto10 = new E_Commerce_Volterra.Prodotto();
             this.prodotto11 = new E_Commerce_Volterra.Prodotto();
             this.prodotto12 = new E_Commerce_Volterra.Prodotto();
@@ -68,7 +69,6 @@
             this.prodotto1 = new E_Commerce_Volterra.Prodotto();
             this.prodotto2 = new E_Commerce_Volterra.Prodotto();
             this.prodotto3 = new E_Commerce_Volterra.Prodotto();
-            this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbInstagramP)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbFacebookP)).BeginInit();
@@ -76,7 +76,7 @@
             this.panel2.SuspendLayout();
             this.bunifuPages1.SuspendLayout();
             this.PagePantaloni.SuspendLayout();
-            this.flowLayout.SuspendLayout();
+            this.flawlayout.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -119,11 +119,11 @@
             this.btnHomeP.ColorContrastOnClick = 45;
             this.btnHomeP.ColorContrastOnHover = 45;
             this.btnHomeP.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges11.BottomLeft = true;
-            borderEdges11.BottomRight = true;
-            borderEdges11.TopLeft = true;
-            borderEdges11.TopRight = true;
-            this.btnHomeP.CustomizableEdges = borderEdges11;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.btnHomeP.CustomizableEdges = borderEdges1;
             this.btnHomeP.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnHomeP.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnHomeP.DisabledFillColor = System.Drawing.Color.Empty;
@@ -211,11 +211,11 @@
             this.btnMaglieP.ColorContrastOnClick = 45;
             this.btnMaglieP.ColorContrastOnHover = 45;
             this.btnMaglieP.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges12.BottomLeft = true;
-            borderEdges12.BottomRight = true;
-            borderEdges12.TopLeft = true;
-            borderEdges12.TopRight = true;
-            this.btnMaglieP.CustomizableEdges = borderEdges12;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btnMaglieP.CustomizableEdges = borderEdges2;
             this.btnMaglieP.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnMaglieP.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnMaglieP.DisabledFillColor = System.Drawing.Color.Empty;
@@ -303,11 +303,11 @@
             this.btnPantaloniP.ColorContrastOnClick = 45;
             this.btnPantaloniP.ColorContrastOnHover = 45;
             this.btnPantaloniP.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges13.BottomLeft = true;
-            borderEdges13.BottomRight = true;
-            borderEdges13.TopLeft = true;
-            borderEdges13.TopRight = true;
-            this.btnPantaloniP.CustomizableEdges = borderEdges13;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.btnPantaloniP.CustomizableEdges = borderEdges3;
             this.btnPantaloniP.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnPantaloniP.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnPantaloniP.DisabledFillColor = System.Drawing.Color.Empty;
@@ -395,11 +395,11 @@
             this.btnScarpeP.ColorContrastOnClick = 45;
             this.btnScarpeP.ColorContrastOnHover = 45;
             this.btnScarpeP.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges14.BottomLeft = true;
-            borderEdges14.BottomRight = true;
-            borderEdges14.TopLeft = true;
-            borderEdges14.TopRight = true;
-            this.btnScarpeP.CustomizableEdges = borderEdges14;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btnScarpeP.CustomizableEdges = borderEdges4;
             this.btnScarpeP.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnScarpeP.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnScarpeP.DisabledFillColor = System.Drawing.Color.Empty;
@@ -487,11 +487,11 @@
             this.bunifuButton8.ColorContrastOnClick = 45;
             this.bunifuButton8.ColorContrastOnHover = 45;
             this.bunifuButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges15.BottomLeft = true;
-            borderEdges15.BottomRight = true;
-            borderEdges15.TopLeft = true;
-            borderEdges15.TopRight = true;
-            this.bunifuButton8.CustomizableEdges = borderEdges15;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.bunifuButton8.CustomizableEdges = borderEdges5;
             this.bunifuButton8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton8.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton8.DisabledFillColor = System.Drawing.Color.Empty;
@@ -651,7 +651,7 @@
             // PagePantaloni
             // 
             this.PagePantaloni.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.PagePantaloni.Controls.Add(this.flowLayout);
+            this.PagePantaloni.Controls.Add(this.flawlayout);
             this.PagePantaloni.Controls.Add(this.bunifuTextBox1);
             this.PagePantaloni.Location = new System.Drawing.Point(4, 4);
             this.PagePantaloni.Name = "PagePantaloni";
@@ -660,31 +660,108 @@
             this.PagePantaloni.TabIndex = 0;
             this.PagePantaloni.Text = "Pantaloni";
             // 
-            // flowLayout
+            // flawlayout
             // 
-            this.flowLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.flawlayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.flowLayout.AutoScroll = true;
-            this.flowLayout.Controls.Add(this.prodotto10);
-            this.flowLayout.Controls.Add(this.prodotto11);
-            this.flowLayout.Controls.Add(this.prodotto12);
-            this.flowLayout.Controls.Add(this.prodotto13);
-            this.flowLayout.Controls.Add(this.prodotto14);
-            this.flowLayout.Controls.Add(this.prodotto15);
-            this.flowLayout.Controls.Add(this.prodotto16);
-            this.flowLayout.Controls.Add(this.prodotto17);
-            this.flowLayout.Controls.Add(this.prodotto18);
-            this.flowLayout.Controls.Add(this.prodotto19);
-            this.flowLayout.Controls.Add(this.prodotto20);
-            this.flowLayout.Controls.Add(this.prodotto21);
-            this.flowLayout.Controls.Add(this.prodotto1);
-            this.flowLayout.Controls.Add(this.prodotto2);
-            this.flowLayout.Controls.Add(this.prodotto3);
-            this.flowLayout.Location = new System.Drawing.Point(23, 96);
-            this.flowLayout.Name = "flowLayout";
-            this.flowLayout.Size = new System.Drawing.Size(855, 619);
-            this.flowLayout.TabIndex = 4;
+            this.flawlayout.AutoScroll = true;
+            this.flawlayout.Controls.Add(this.prodotto10);
+            this.flawlayout.Controls.Add(this.prodotto11);
+            this.flawlayout.Controls.Add(this.prodotto12);
+            this.flawlayout.Controls.Add(this.prodotto13);
+            this.flawlayout.Controls.Add(this.prodotto14);
+            this.flawlayout.Controls.Add(this.prodotto15);
+            this.flawlayout.Controls.Add(this.prodotto16);
+            this.flawlayout.Controls.Add(this.prodotto17);
+            this.flawlayout.Controls.Add(this.prodotto18);
+            this.flawlayout.Controls.Add(this.prodotto19);
+            this.flawlayout.Controls.Add(this.prodotto20);
+            this.flawlayout.Controls.Add(this.prodotto21);
+            this.flawlayout.Controls.Add(this.prodotto1);
+            this.flawlayout.Controls.Add(this.prodotto2);
+            this.flawlayout.Controls.Add(this.prodotto3);
+            this.flawlayout.Location = new System.Drawing.Point(23, 96);
+            this.flawlayout.Name = "flawlayout";
+            this.flawlayout.Size = new System.Drawing.Size(855, 619);
+            this.flawlayout.TabIndex = 4;
+            // 
+            // bunifuTextBox1
+            // 
+            this.bunifuTextBox1.AcceptsReturn = false;
+            this.bunifuTextBox1.AcceptsTab = false;
+            this.bunifuTextBox1.AnimationSpeed = 200;
+            this.bunifuTextBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.bunifuTextBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.bunifuTextBox1.AutoSizeHeight = true;
+            this.bunifuTextBox1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTextBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextBox1.BackgroundImage")));
+            this.bunifuTextBox1.BorderColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            this.bunifuTextBox1.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.bunifuTextBox1.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            this.bunifuTextBox1.BorderColorIdle = System.Drawing.Color.Silver;
+            this.bunifuTextBox1.BorderRadius = 35;
+            this.bunifuTextBox1.BorderThickness = 1;
+            this.bunifuTextBox1.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
+            this.bunifuTextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.bunifuTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTextBox1.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.bunifuTextBox1.DefaultText = "";
+            this.bunifuTextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuTextBox1.HideSelection = true;
+            this.bunifuTextBox1.IconLeft = null;
+            this.bunifuTextBox1.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTextBox1.IconPadding = 10;
+            this.bunifuTextBox1.IconRight = ((System.Drawing.Image)(resources.GetObject("bunifuTextBox1.IconRight")));
+            this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuTextBox1.Lines = new string[0];
+            this.bunifuTextBox1.Location = new System.Drawing.Point(23, 32);
+            this.bunifuTextBox1.MaxLength = 32767;
+            this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.bunifuTextBox1.Modified = false;
+            this.bunifuTextBox1.Multiline = false;
+            this.bunifuTextBox1.Name = "bunifuTextBox1";
+            stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox1.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnIdleState = stateProperties4;
+            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
+            this.bunifuTextBox1.PasswordChar = '\0';
+            this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox1.PlaceholderText = "Cerca";
+            this.bunifuTextBox1.ReadOnly = false;
+            this.bunifuTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.bunifuTextBox1.SelectedText = "";
+            this.bunifuTextBox1.SelectionLength = 0;
+            this.bunifuTextBox1.SelectionStart = 0;
+            this.bunifuTextBox1.ShortcutsEnabled = true;
+            this.bunifuTextBox1.Size = new System.Drawing.Size(323, 40);
+            this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.bunifuTextBox1.TabIndex = 0;
+            this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuTextBox1.TextMarginBottom = 0;
+            this.bunifuTextBox1.TextMarginLeft = 10;
+            this.bunifuTextBox1.TextMarginTop = 1;
+            this.bunifuTextBox1.TextPlaceholder = "Cerca";
+            this.bunifuTextBox1.UseSystemPasswordChar = false;
+            this.bunifuTextBox1.WordWrap = true;
+            this.bunifuTextBox1.TextChange += new System.EventHandler(this.bunifuTextBox1_TextChange);
             // 
             // prodotto10
             // 
@@ -707,7 +784,7 @@
             this.prodotto10.Location = new System.Drawing.Point(3, 3);
             this.prodotto10.Name = "prodotto10";
             this.prodotto10.Nome = "Jeans Blue";
-            this.prodotto10.Prezzo = "5.99€";
+            this.prodotto10.Prezzo = "8.99€";
             this.prodotto10.ShowBorders = true;
             this.prodotto10.Size = new System.Drawing.Size(272, 233);
             this.prodotto10.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -733,8 +810,8 @@
             this.prodotto11.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto11.Immagine")));
             this.prodotto11.Location = new System.Drawing.Point(281, 3);
             this.prodotto11.Name = "prodotto11";
-            this.prodotto11.Nome = "Jeans Blue";
-            this.prodotto11.Prezzo = "8.99€";
+            this.prodotto11.Nome = "Black Carhartt";
+            this.prodotto11.Prezzo = "84.99€";
             this.prodotto11.ShowBorders = true;
             this.prodotto11.Size = new System.Drawing.Size(272, 233);
             this.prodotto11.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -760,8 +837,8 @@
             this.prodotto12.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto12.Immagine")));
             this.prodotto12.Location = new System.Drawing.Point(559, 3);
             this.prodotto12.Name = "prodotto12";
-            this.prodotto12.Nome = "Jeans Blue";
-            this.prodotto12.Prezzo = "8.99€";
+            this.prodotto12.Nome = "Jeans Amiri";
+            this.prodotto12.Prezzo = "99.99€";
             this.prodotto12.ShowBorders = true;
             this.prodotto12.Size = new System.Drawing.Size(272, 233);
             this.prodotto12.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -787,8 +864,8 @@
             this.prodotto13.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto13.Immagine")));
             this.prodotto13.Location = new System.Drawing.Point(3, 242);
             this.prodotto13.Name = "prodotto13";
-            this.prodotto13.Nome = "Jeans Blue";
-            this.prodotto13.Prezzo = "8.99€";
+            this.prodotto13.Nome = "Jeans Balenciaga";
+            this.prodotto13.Prezzo = "125.00€";
             this.prodotto13.ShowBorders = true;
             this.prodotto13.Size = new System.Drawing.Size(272, 233);
             this.prodotto13.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -814,8 +891,8 @@
             this.prodotto14.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto14.Immagine")));
             this.prodotto14.Location = new System.Drawing.Point(281, 242);
             this.prodotto14.Name = "prodotto14";
-            this.prodotto14.Nome = "Jeans Blue";
-            this.prodotto14.Prezzo = "8.99€";
+            this.prodotto14.Nome = "Trousers Amiri";
+            this.prodotto14.Prezzo = "58.50€";
             this.prodotto14.ShowBorders = true;
             this.prodotto14.Size = new System.Drawing.Size(272, 233);
             this.prodotto14.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -841,8 +918,8 @@
             this.prodotto15.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto15.Immagine")));
             this.prodotto15.Location = new System.Drawing.Point(559, 242);
             this.prodotto15.Name = "prodotto15";
-            this.prodotto15.Nome = "Jeans Blue";
-            this.prodotto15.Prezzo = "8.99€";
+            this.prodotto15.Nome = "Black Amiri";
+            this.prodotto15.Prezzo = "58.50€";
             this.prodotto15.ShowBorders = true;
             this.prodotto15.Size = new System.Drawing.Size(272, 233);
             this.prodotto15.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -868,8 +945,8 @@
             this.prodotto16.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto16.Immagine")));
             this.prodotto16.Location = new System.Drawing.Point(3, 481);
             this.prodotto16.Name = "prodotto16";
-            this.prodotto16.Nome = "Jeans Blue";
-            this.prodotto16.Prezzo = "8.99€";
+            this.prodotto16.Nome = "Green Carhartt";
+            this.prodotto16.Prezzo = "89.99€";
             this.prodotto16.ShowBorders = true;
             this.prodotto16.Size = new System.Drawing.Size(272, 233);
             this.prodotto16.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -895,8 +972,8 @@
             this.prodotto17.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto17.Immagine")));
             this.prodotto17.Location = new System.Drawing.Point(281, 481);
             this.prodotto17.Name = "prodotto17";
-            this.prodotto17.Nome = "Jeans Blue";
-            this.prodotto17.Prezzo = "8.99€";
+            this.prodotto17.Nome = "Black M.B";
+            this.prodotto17.Prezzo = "17.50€";
             this.prodotto17.ShowBorders = true;
             this.prodotto17.Size = new System.Drawing.Size(272, 233);
             this.prodotto17.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -922,8 +999,8 @@
             this.prodotto18.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto18.Immagine")));
             this.prodotto18.Location = new System.Drawing.Point(559, 481);
             this.prodotto18.Name = "prodotto18";
-            this.prodotto18.Nome = "Jeans Blue";
-            this.prodotto18.Prezzo = "8.99€";
+            this.prodotto18.Nome = "White Palm A.";
+            this.prodotto18.Prezzo = "89.99€";
             this.prodotto18.ShowBorders = true;
             this.prodotto18.Size = new System.Drawing.Size(272, 233);
             this.prodotto18.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -949,8 +1026,8 @@
             this.prodotto19.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto19.Immagine")));
             this.prodotto19.Location = new System.Drawing.Point(3, 720);
             this.prodotto19.Name = "prodotto19";
-            this.prodotto19.Nome = "Jeans Blue";
-            this.prodotto19.Prezzo = "8.99€";
+            this.prodotto19.Nome = "Gray Adidas";
+            this.prodotto19.Prezzo = "37.90€";
             this.prodotto19.ShowBorders = true;
             this.prodotto19.Size = new System.Drawing.Size(272, 233);
             this.prodotto19.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -976,8 +1053,8 @@
             this.prodotto20.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto20.Immagine")));
             this.prodotto20.Location = new System.Drawing.Point(281, 720);
             this.prodotto20.Name = "prodotto20";
-            this.prodotto20.Nome = "Jeans Blue";
-            this.prodotto20.Prezzo = "8.99€";
+            this.prodotto20.Nome = "Pink Adidas";
+            this.prodotto20.Prezzo = "37.90€";
             this.prodotto20.ShowBorders = true;
             this.prodotto20.Size = new System.Drawing.Size(272, 233);
             this.prodotto20.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -1003,8 +1080,8 @@
             this.prodotto21.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto21.Immagine")));
             this.prodotto21.Location = new System.Drawing.Point(559, 720);
             this.prodotto21.Name = "prodotto21";
-            this.prodotto21.Nome = "Jeans Blue";
-            this.prodotto21.Prezzo = "8.99€";
+            this.prodotto21.Nome = "Brown Adidas";
+            this.prodotto21.Prezzo = "37.90€";
             this.prodotto21.ShowBorders = true;
             this.prodotto21.Size = new System.Drawing.Size(272, 233);
             this.prodotto21.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -1030,8 +1107,8 @@
             this.prodotto1.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto1.Immagine")));
             this.prodotto1.Location = new System.Drawing.Point(3, 959);
             this.prodotto1.Name = "prodotto1";
-            this.prodotto1.Nome = "Jeans Blue";
-            this.prodotto1.Prezzo = "8.99€";
+            this.prodotto1.Nome = "Cargo Carhartt";
+            this.prodotto1.Prezzo = "50.00€";
             this.prodotto1.ShowBorders = true;
             this.prodotto1.Size = new System.Drawing.Size(272, 233);
             this.prodotto1.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -1057,8 +1134,8 @@
             this.prodotto2.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto2.Immagine")));
             this.prodotto2.Location = new System.Drawing.Point(281, 959);
             this.prodotto2.Name = "prodotto2";
-            this.prodotto2.Nome = "Jeans Blue";
-            this.prodotto2.Prezzo = "8.99€";
+            this.prodotto2.Nome = "Jeans Levis";
+            this.prodotto2.Prezzo = "94.99€";
             this.prodotto2.ShowBorders = true;
             this.prodotto2.Size = new System.Drawing.Size(272, 233);
             this.prodotto2.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
@@ -1084,88 +1161,12 @@
             this.prodotto3.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto3.Immagine")));
             this.prodotto3.Location = new System.Drawing.Point(559, 959);
             this.prodotto3.Name = "prodotto3";
-            this.prodotto3.Nome = "Jeans Blue";
-            this.prodotto3.Prezzo = "8.99€";
+            this.prodotto3.Nome = "Black Levis";
+            this.prodotto3.Prezzo = "96.50€";
             this.prodotto3.ShowBorders = true;
             this.prodotto3.Size = new System.Drawing.Size(272, 233);
             this.prodotto3.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
             this.prodotto3.TabIndex = 14;
-            // 
-            // bunifuTextBox1
-            // 
-            this.bunifuTextBox1.AcceptsReturn = false;
-            this.bunifuTextBox1.AcceptsTab = false;
-            this.bunifuTextBox1.AnimationSpeed = 200;
-            this.bunifuTextBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.bunifuTextBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.bunifuTextBox1.AutoSizeHeight = true;
-            this.bunifuTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTextBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextBox1.BackgroundImage")));
-            this.bunifuTextBox1.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.bunifuTextBox1.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuTextBox1.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuTextBox1.BorderColorIdle = System.Drawing.Color.Silver;
-            this.bunifuTextBox1.BorderRadius = 35;
-            this.bunifuTextBox1.BorderThickness = 1;
-            this.bunifuTextBox1.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
-            this.bunifuTextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.bunifuTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox1.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.bunifuTextBox1.DefaultText = "";
-            this.bunifuTextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuTextBox1.HideSelection = true;
-            this.bunifuTextBox1.IconLeft = null;
-            this.bunifuTextBox1.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox1.IconPadding = 10;
-            this.bunifuTextBox1.IconRight = ((System.Drawing.Image)(resources.GetObject("bunifuTextBox1.IconRight")));
-            this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox1.Lines = new string[0];
-            this.bunifuTextBox1.Location = new System.Drawing.Point(23, 32);
-            this.bunifuTextBox1.MaxLength = 32767;
-            this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.bunifuTextBox1.Modified = false;
-            this.bunifuTextBox1.Multiline = false;
-            this.bunifuTextBox1.Name = "bunifuTextBox1";
-            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox1.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Silver;
-            stateProperties12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            stateProperties12.ForeColor = System.Drawing.Color.Empty;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnIdleState = stateProperties12;
-            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
-            this.bunifuTextBox1.PasswordChar = '\0';
-            this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox1.PlaceholderText = "Cerca";
-            this.bunifuTextBox1.ReadOnly = false;
-            this.bunifuTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.bunifuTextBox1.SelectedText = "";
-            this.bunifuTextBox1.SelectionLength = 0;
-            this.bunifuTextBox1.SelectionStart = 0;
-            this.bunifuTextBox1.ShortcutsEnabled = true;
-            this.bunifuTextBox1.Size = new System.Drawing.Size(323, 40);
-            this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.bunifuTextBox1.TabIndex = 0;
-            this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuTextBox1.TextMarginBottom = 0;
-            this.bunifuTextBox1.TextMarginLeft = 10;
-            this.bunifuTextBox1.TextMarginTop = 1;
-            this.bunifuTextBox1.TextPlaceholder = "Cerca";
-            this.bunifuTextBox1.UseSystemPasswordChar = false;
-            this.bunifuTextBox1.WordWrap = true;
             // 
             // Pantaloni
             // 
@@ -1186,7 +1187,7 @@
             this.panel2.PerformLayout();
             this.bunifuPages1.ResumeLayout(false);
             this.PagePantaloni.ResumeLayout(false);
-            this.flowLayout.ResumeLayout(false);
+            this.flawlayout.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1206,7 +1207,7 @@
         private System.Windows.Forms.Panel panel2;
         private Bunifu.UI.WinForms.BunifuPages bunifuPages1;
         private System.Windows.Forms.TabPage PagePantaloni;
-        private System.Windows.Forms.FlowLayoutPanel flowLayout;
+        private System.Windows.Forms.FlowLayoutPanel flawlayout;
         private Prodotto prodotto10;
         private Prodotto prodotto11;
         private Prodotto prodotto12;
