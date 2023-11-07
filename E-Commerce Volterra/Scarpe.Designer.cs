@@ -183,7 +183,7 @@
             this.btnCarrelloS.IdleIconLeftImage = null;
             this.btnCarrelloS.IdleIconRightImage = null;
             this.btnCarrelloS.IndicateFocus = true;
-            this.btnCarrelloS.Location = new System.Drawing.Point(32, 394);
+            this.btnCarrelloS.Location = new System.Drawing.Point(32, 383);
             this.btnCarrelloS.Name = "btnCarrelloS";
             this.btnCarrelloS.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
             this.btnCarrelloS.OnDisabledState.BorderRadius = 45;
@@ -275,7 +275,7 @@
             this.btnScarpeS.IdleIconLeftImage = null;
             this.btnScarpeS.IdleIconRightImage = null;
             this.btnScarpeS.IndicateFocus = true;
-            this.btnScarpeS.Location = new System.Drawing.Point(32, 333);
+            this.btnScarpeS.Location = new System.Drawing.Point(32, 326);
             this.btnScarpeS.Name = "btnScarpeS";
             this.btnScarpeS.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
             this.btnScarpeS.OnDisabledState.BorderRadius = 45;

@@ -12,6 +12,9 @@ namespace E_Commerce_Volterra
 {
     public partial class Principale : Form
     {
+
+        public static List<C_Prodotto> prodotti = new List<C_Prodotto>();
+
         public Principale()
         {
             InitializeComponent();
@@ -20,7 +23,7 @@ namespace E_Commerce_Volterra
 
         private void bunifuButton6_Click(object sender, EventArgs e)
         {
-            //
+
         }
 
 

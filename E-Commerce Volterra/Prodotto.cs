@@ -65,8 +65,23 @@ namespace E_Commerce_Volterra
 
         private void pcbCarrello_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Prova");
+            string prezzoString = lblPrezzo.Text.Replace("€", "").Replace(",", ".");
+            string[] prezzoParti = prezzoString.Split('.');
+
+            if (prezzoParti.Length == 2 && int.TryParse(prezzoParti[0], out int euro) && int.TryParse(prezzoParti[1], out int centesimi))
+            {
+                int prezzoTotaleCentesimi = euro * 100 + centesimi;
+
+                double prezzoTotale = prezzoTotaleCentesimi / 100.0;
+
+                Principale.prodotti.Add(new C_Prodotto(this.Immagine, lblNome.Text, prezzoTotale));
+            }
+            else
+            {
+                Console.WriteLine("Formato prezzo non valido");
+            }
         }
     }
 }
+
 
