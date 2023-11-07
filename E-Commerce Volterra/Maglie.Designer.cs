@@ -43,7 +43,7 @@
             this.pcbYouTubeM = new System.Windows.Forms.PictureBox();
             this.pcbFacebookM = new System.Windows.Forms.PictureBox();
             this.pcbInstagramM = new System.Windows.Forms.PictureBox();
-            this.bunifuButton8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.btnCarrelloM = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnScarpeM = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnPantaloniM = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -53,7 +53,6 @@
             this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
             this.PageMaglie = new System.Windows.Forms.TabPage();
             this.flowLayout = new System.Windows.Forms.FlowLayoutPanel();
-            this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.prodotto10 = new E_Commerce_Volterra.Prodotto();
             this.prodotto11 = new E_Commerce_Volterra.Prodotto();
             this.prodotto12 = new E_Commerce_Volterra.Prodotto();
@@ -69,7 +68,7 @@
             this.prodotto1 = new E_Commerce_Volterra.Prodotto();
             this.prodotto2 = new E_Commerce_Volterra.Prodotto();
             this.prodotto3 = new E_Commerce_Volterra.Prodotto();
-            this.prodotto4 = new E_Commerce_Volterra.Prodotto();
+            this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbYouTubeM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbFacebookM)).BeginInit();
@@ -86,7 +85,7 @@
             this.panel2.Controls.Add(this.pcbYouTubeM);
             this.panel2.Controls.Add(this.pcbFacebookM);
             this.panel2.Controls.Add(this.pcbInstagramM);
-            this.panel2.Controls.Add(this.bunifuButton8);
+            this.panel2.Controls.Add(this.btnCarrelloM);
             this.panel2.Controls.Add(this.btnScarpeM);
             this.panel2.Controls.Add(this.btnPantaloniM);
             this.panel2.Controls.Add(this.bunifuButton5);
@@ -135,96 +134,97 @@
             this.pcbInstagramM.TabStop = false;
             this.pcbInstagramM.Click += new System.EventHandler(this.pcbInstagramM_Click);
             // 
-            // bunifuButton8
+            // btnCarrelloM
             // 
-            this.bunifuButton8.AllowAnimations = true;
-            this.bunifuButton8.AllowMouseEffects = true;
-            this.bunifuButton8.AllowToggling = true;
-            this.bunifuButton8.AnimationSpeed = 200;
-            this.bunifuButton8.AutoGenerateColors = false;
-            this.bunifuButton8.AutoRoundBorders = false;
-            this.bunifuButton8.AutoSizeLeftIcon = true;
-            this.bunifuButton8.AutoSizeRightIcon = true;
-            this.bunifuButton8.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuButton8.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
-            this.bunifuButton8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton8.BackgroundImage")));
-            this.bunifuButton8.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.bunifuButton8.ButtonText = "Carrello";
-            this.bunifuButton8.ButtonTextMarginLeft = 0;
-            this.bunifuButton8.ColorContrastOnClick = 45;
-            this.bunifuButton8.ColorContrastOnHover = 45;
-            this.bunifuButton8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCarrelloM.AllowAnimations = true;
+            this.btnCarrelloM.AllowMouseEffects = true;
+            this.btnCarrelloM.AllowToggling = true;
+            this.btnCarrelloM.AnimationSpeed = 200;
+            this.btnCarrelloM.AutoGenerateColors = false;
+            this.btnCarrelloM.AutoRoundBorders = false;
+            this.btnCarrelloM.AutoSizeLeftIcon = true;
+            this.btnCarrelloM.AutoSizeRightIcon = true;
+            this.btnCarrelloM.BackColor = System.Drawing.Color.Transparent;
+            this.btnCarrelloM.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
+            this.btnCarrelloM.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCarrelloM.BackgroundImage")));
+            this.btnCarrelloM.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnCarrelloM.ButtonText = "Carrello";
+            this.btnCarrelloM.ButtonTextMarginLeft = 0;
+            this.btnCarrelloM.ColorContrastOnClick = 45;
+            this.btnCarrelloM.ColorContrastOnHover = 45;
+            this.btnCarrelloM.Cursor = System.Windows.Forms.Cursors.Hand;
             borderEdges1.BottomLeft = true;
             borderEdges1.BottomRight = true;
             borderEdges1.TopLeft = true;
             borderEdges1.TopRight = true;
-            this.bunifuButton8.CustomizableEdges = borderEdges1;
-            this.bunifuButton8.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.bunifuButton8.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.bunifuButton8.DisabledFillColor = System.Drawing.Color.Empty;
-            this.bunifuButton8.DisabledForecolor = System.Drawing.Color.Empty;
-            this.bunifuButton8.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton8.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuButton8.ForeColor = System.Drawing.Color.White;
-            this.bunifuButton8.IconLeft = null;
-            this.bunifuButton8.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuButton8.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuButton8.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.bunifuButton8.IconMarginLeft = 11;
-            this.bunifuButton8.IconPadding = 10;
-            this.bunifuButton8.IconRight = null;
-            this.bunifuButton8.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.bunifuButton8.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuButton8.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.bunifuButton8.IconSize = 25;
-            this.bunifuButton8.IdleBorderColor = System.Drawing.Color.Empty;
-            this.bunifuButton8.IdleBorderRadius = 0;
-            this.bunifuButton8.IdleBorderThickness = 0;
-            this.bunifuButton8.IdleFillColor = System.Drawing.Color.Empty;
-            this.bunifuButton8.IdleIconLeftImage = null;
-            this.bunifuButton8.IdleIconRightImage = null;
-            this.bunifuButton8.IndicateFocus = true;
-            this.bunifuButton8.Location = new System.Drawing.Point(32, 394);
-            this.bunifuButton8.Name = "bunifuButton8";
-            this.bunifuButton8.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
-            this.bunifuButton8.OnDisabledState.BorderRadius = 45;
-            this.bunifuButton8.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.bunifuButton8.OnDisabledState.BorderThickness = 1;
-            this.bunifuButton8.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuButton8.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.bunifuButton8.OnDisabledState.IconLeftImage = null;
-            this.bunifuButton8.OnDisabledState.IconRightImage = null;
-            this.bunifuButton8.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
-            this.bunifuButton8.onHoverState.BorderRadius = 45;
-            this.bunifuButton8.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.bunifuButton8.onHoverState.BorderThickness = 1;
-            this.bunifuButton8.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
-            this.bunifuButton8.onHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuButton8.onHoverState.IconLeftImage = null;
-            this.bunifuButton8.onHoverState.IconRightImage = null;
-            this.bunifuButton8.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
-            this.bunifuButton8.OnIdleState.BorderRadius = 45;
-            this.bunifuButton8.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.bunifuButton8.OnIdleState.BorderThickness = 1;
-            this.bunifuButton8.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
-            this.bunifuButton8.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.bunifuButton8.OnIdleState.IconLeftImage = null;
-            this.bunifuButton8.OnIdleState.IconRightImage = null;
-            this.bunifuButton8.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
-            this.bunifuButton8.OnPressedState.BorderRadius = 45;
-            this.bunifuButton8.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.bunifuButton8.OnPressedState.BorderThickness = 1;
-            this.bunifuButton8.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
-            this.bunifuButton8.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.bunifuButton8.OnPressedState.IconLeftImage = null;
-            this.bunifuButton8.OnPressedState.IconRightImage = null;
-            this.bunifuButton8.Size = new System.Drawing.Size(174, 39);
-            this.bunifuButton8.TabIndex = 5;
-            this.bunifuButton8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuButton8.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.bunifuButton8.TextMarginLeft = 0;
-            this.bunifuButton8.TextPadding = new System.Windows.Forms.Padding(0);
-            this.bunifuButton8.UseDefaultRadiusAndThickness = true;
+            this.btnCarrelloM.CustomizableEdges = borderEdges1;
+            this.btnCarrelloM.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnCarrelloM.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnCarrelloM.DisabledFillColor = System.Drawing.Color.Empty;
+            this.btnCarrelloM.DisabledForecolor = System.Drawing.Color.Empty;
+            this.btnCarrelloM.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnCarrelloM.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCarrelloM.ForeColor = System.Drawing.Color.White;
+            this.btnCarrelloM.IconLeft = null;
+            this.btnCarrelloM.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCarrelloM.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCarrelloM.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btnCarrelloM.IconMarginLeft = 11;
+            this.btnCarrelloM.IconPadding = 10;
+            this.btnCarrelloM.IconRight = null;
+            this.btnCarrelloM.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCarrelloM.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCarrelloM.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btnCarrelloM.IconSize = 25;
+            this.btnCarrelloM.IdleBorderColor = System.Drawing.Color.Empty;
+            this.btnCarrelloM.IdleBorderRadius = 0;
+            this.btnCarrelloM.IdleBorderThickness = 0;
+            this.btnCarrelloM.IdleFillColor = System.Drawing.Color.Empty;
+            this.btnCarrelloM.IdleIconLeftImage = null;
+            this.btnCarrelloM.IdleIconRightImage = null;
+            this.btnCarrelloM.IndicateFocus = true;
+            this.btnCarrelloM.Location = new System.Drawing.Point(32, 394);
+            this.btnCarrelloM.Name = "btnCarrelloM";
+            this.btnCarrelloM.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            this.btnCarrelloM.OnDisabledState.BorderRadius = 45;
+            this.btnCarrelloM.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnCarrelloM.OnDisabledState.BorderThickness = 1;
+            this.btnCarrelloM.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnCarrelloM.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnCarrelloM.OnDisabledState.IconLeftImage = null;
+            this.btnCarrelloM.OnDisabledState.IconRightImage = null;
+            this.btnCarrelloM.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            this.btnCarrelloM.onHoverState.BorderRadius = 45;
+            this.btnCarrelloM.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnCarrelloM.onHoverState.BorderThickness = 1;
+            this.btnCarrelloM.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            this.btnCarrelloM.onHoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCarrelloM.onHoverState.IconLeftImage = null;
+            this.btnCarrelloM.onHoverState.IconRightImage = null;
+            this.btnCarrelloM.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            this.btnCarrelloM.OnIdleState.BorderRadius = 45;
+            this.btnCarrelloM.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnCarrelloM.OnIdleState.BorderThickness = 1;
+            this.btnCarrelloM.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            this.btnCarrelloM.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.btnCarrelloM.OnIdleState.IconLeftImage = null;
+            this.btnCarrelloM.OnIdleState.IconRightImage = null;
+            this.btnCarrelloM.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            this.btnCarrelloM.OnPressedState.BorderRadius = 45;
+            this.btnCarrelloM.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnCarrelloM.OnPressedState.BorderThickness = 1;
+            this.btnCarrelloM.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(66)))), ((int)(((byte)(194)))));
+            this.btnCarrelloM.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btnCarrelloM.OnPressedState.IconLeftImage = null;
+            this.btnCarrelloM.OnPressedState.IconRightImage = null;
+            this.btnCarrelloM.Size = new System.Drawing.Size(174, 39);
+            this.btnCarrelloM.TabIndex = 5;
+            this.btnCarrelloM.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnCarrelloM.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnCarrelloM.TextMarginLeft = 0;
+            this.btnCarrelloM.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btnCarrelloM.UseDefaultRadiusAndThickness = true;
+            this.btnCarrelloM.Click += new System.EventHandler(this.btnCarrelloM_Click);
             // 
             // btnScarpeM
             // 
@@ -682,12 +682,432 @@
             this.flowLayout.Controls.Add(this.prodotto1);
             this.flowLayout.Controls.Add(this.prodotto2);
             this.flowLayout.Controls.Add(this.prodotto3);
-            this.flowLayout.Controls.Add(this.prodotto4);
             this.flowLayout.Location = new System.Drawing.Point(23, 96);
             this.flowLayout.Name = "flowLayout";
             this.flowLayout.Size = new System.Drawing.Size(861, 619);
             this.flowLayout.TabIndex = 4;
             this.flowLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayout_Paint);
+            // 
+            // prodotto10
+            // 
+            this.prodotto10.AllowAnimations = false;
+            this.prodotto10.AllowBorderColorChanges = false;
+            this.prodotto10.AllowMouseEffects = false;
+            this.prodotto10.AnimationSpeed = 200;
+            this.prodotto10.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto10.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto10.BorderColor = System.Drawing.Color.White;
+            this.prodotto10.BorderRadius = 5;
+            this.prodotto10.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto10.BorderThickness = 1;
+            this.prodotto10.ColorContrastOnClick = 30;
+            this.prodotto10.ColorContrastOnHover = 30;
+            this.prodotto10.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto10.Image = null;
+            this.prodotto10.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto10.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto10.Immagine")));
+            this.prodotto10.Location = new System.Drawing.Point(3, 3);
+            this.prodotto10.Name = "prodotto10";
+            this.prodotto10.Nome = "White Balenciaga";
+            this.prodotto10.Prezzo = "29.99€";
+            this.prodotto10.Recensioni = 4;
+            this.prodotto10.ShowBorders = true;
+            this.prodotto10.Size = new System.Drawing.Size(272, 233);
+            this.prodotto10.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto10.TabIndex = 0;
+            // 
+            // prodotto11
+            // 
+            this.prodotto11.AllowAnimations = false;
+            this.prodotto11.AllowBorderColorChanges = false;
+            this.prodotto11.AllowMouseEffects = false;
+            this.prodotto11.AnimationSpeed = 200;
+            this.prodotto11.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto11.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto11.BorderColor = System.Drawing.Color.White;
+            this.prodotto11.BorderRadius = 5;
+            this.prodotto11.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto11.BorderThickness = 1;
+            this.prodotto11.ColorContrastOnClick = 30;
+            this.prodotto11.ColorContrastOnHover = 30;
+            this.prodotto11.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto11.Image = null;
+            this.prodotto11.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto11.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto11.Immagine")));
+            this.prodotto11.Location = new System.Drawing.Point(281, 3);
+            this.prodotto11.Name = "prodotto11";
+            this.prodotto11.Nome = "Black Balenciaga";
+            this.prodotto11.Prezzo = "29.99€";
+            this.prodotto11.Recensioni = 2;
+            this.prodotto11.ShowBorders = true;
+            this.prodotto11.Size = new System.Drawing.Size(272, 233);
+            this.prodotto11.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto11.TabIndex = 1;
+            // 
+            // prodotto12
+            // 
+            this.prodotto12.AllowAnimations = false;
+            this.prodotto12.AllowBorderColorChanges = false;
+            this.prodotto12.AllowMouseEffects = false;
+            this.prodotto12.AnimationSpeed = 200;
+            this.prodotto12.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto12.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto12.BorderColor = System.Drawing.Color.White;
+            this.prodotto12.BorderRadius = 5;
+            this.prodotto12.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto12.BorderThickness = 1;
+            this.prodotto12.ColorContrastOnClick = 30;
+            this.prodotto12.ColorContrastOnHover = 30;
+            this.prodotto12.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto12.Image = null;
+            this.prodotto12.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto12.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto12.Immagine")));
+            this.prodotto12.Location = new System.Drawing.Point(559, 3);
+            this.prodotto12.Name = "prodotto12";
+            this.prodotto12.Nome = "Brown CK";
+            this.prodotto12.Prezzo = "43.50€";
+            this.prodotto12.Recensioni = 1;
+            this.prodotto12.ShowBorders = true;
+            this.prodotto12.Size = new System.Drawing.Size(272, 233);
+            this.prodotto12.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto12.TabIndex = 2;
+            // 
+            // prodotto13
+            // 
+            this.prodotto13.AllowAnimations = false;
+            this.prodotto13.AllowBorderColorChanges = false;
+            this.prodotto13.AllowMouseEffects = false;
+            this.prodotto13.AnimationSpeed = 200;
+            this.prodotto13.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto13.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto13.BorderColor = System.Drawing.Color.White;
+            this.prodotto13.BorderRadius = 5;
+            this.prodotto13.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto13.BorderThickness = 1;
+            this.prodotto13.ColorContrastOnClick = 30;
+            this.prodotto13.ColorContrastOnHover = 30;
+            this.prodotto13.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto13.Image = null;
+            this.prodotto13.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto13.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto13.Immagine")));
+            this.prodotto13.Location = new System.Drawing.Point(3, 242);
+            this.prodotto13.Name = "prodotto13";
+            this.prodotto13.Nome = "Black Octopus";
+            this.prodotto13.Prezzo = "49.00€";
+            this.prodotto13.Recensioni = 5;
+            this.prodotto13.ShowBorders = true;
+            this.prodotto13.Size = new System.Drawing.Size(272, 233);
+            this.prodotto13.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto13.TabIndex = 3;
+            // 
+            // prodotto14
+            // 
+            this.prodotto14.AllowAnimations = false;
+            this.prodotto14.AllowBorderColorChanges = false;
+            this.prodotto14.AllowMouseEffects = false;
+            this.prodotto14.AnimationSpeed = 200;
+            this.prodotto14.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto14.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto14.BorderColor = System.Drawing.Color.White;
+            this.prodotto14.BorderRadius = 5;
+            this.prodotto14.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto14.BorderThickness = 1;
+            this.prodotto14.ColorContrastOnClick = 30;
+            this.prodotto14.ColorContrastOnHover = 30;
+            this.prodotto14.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto14.Image = null;
+            this.prodotto14.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto14.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto14.Immagine")));
+            this.prodotto14.Location = new System.Drawing.Point(281, 242);
+            this.prodotto14.Name = "prodotto14";
+            this.prodotto14.Nome = "Black CK";
+            this.prodotto14.Prezzo = "39.00€";
+            this.prodotto14.Recensioni = 3;
+            this.prodotto14.ShowBorders = true;
+            this.prodotto14.Size = new System.Drawing.Size(272, 233);
+            this.prodotto14.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto14.TabIndex = 4;
+            // 
+            // prodotto15
+            // 
+            this.prodotto15.AllowAnimations = false;
+            this.prodotto15.AllowBorderColorChanges = false;
+            this.prodotto15.AllowMouseEffects = false;
+            this.prodotto15.AnimationSpeed = 200;
+            this.prodotto15.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto15.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto15.BorderColor = System.Drawing.Color.White;
+            this.prodotto15.BorderRadius = 5;
+            this.prodotto15.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto15.BorderThickness = 1;
+            this.prodotto15.ColorContrastOnClick = 30;
+            this.prodotto15.ColorContrastOnHover = 30;
+            this.prodotto15.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto15.Image = null;
+            this.prodotto15.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto15.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto15.Immagine")));
+            this.prodotto15.Location = new System.Drawing.Point(559, 242);
+            this.prodotto15.Name = "prodotto15";
+            this.prodotto15.Nome = "White Nike";
+            this.prodotto15.Prezzo = "22.47€";
+            this.prodotto15.Recensioni = 4;
+            this.prodotto15.ShowBorders = true;
+            this.prodotto15.Size = new System.Drawing.Size(272, 233);
+            this.prodotto15.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto15.TabIndex = 5;
+            // 
+            // prodotto16
+            // 
+            this.prodotto16.AllowAnimations = false;
+            this.prodotto16.AllowBorderColorChanges = false;
+            this.prodotto16.AllowMouseEffects = false;
+            this.prodotto16.AnimationSpeed = 200;
+            this.prodotto16.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto16.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto16.BorderColor = System.Drawing.Color.White;
+            this.prodotto16.BorderRadius = 5;
+            this.prodotto16.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto16.BorderThickness = 1;
+            this.prodotto16.ColorContrastOnClick = 30;
+            this.prodotto16.ColorContrastOnHover = 30;
+            this.prodotto16.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto16.Image = null;
+            this.prodotto16.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto16.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto16.Immagine")));
+            this.prodotto16.Location = new System.Drawing.Point(3, 481);
+            this.prodotto16.Name = "prodotto16";
+            this.prodotto16.Nome = "White Ralph";
+            this.prodotto16.Prezzo = "54.95€";
+            this.prodotto16.Recensioni = 4;
+            this.prodotto16.ShowBorders = true;
+            this.prodotto16.Size = new System.Drawing.Size(272, 233);
+            this.prodotto16.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto16.TabIndex = 6;
+            // 
+            // prodotto17
+            // 
+            this.prodotto17.AllowAnimations = false;
+            this.prodotto17.AllowBorderColorChanges = false;
+            this.prodotto17.AllowMouseEffects = false;
+            this.prodotto17.AnimationSpeed = 200;
+            this.prodotto17.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto17.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto17.BorderColor = System.Drawing.Color.White;
+            this.prodotto17.BorderRadius = 5;
+            this.prodotto17.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto17.BorderThickness = 1;
+            this.prodotto17.ColorContrastOnClick = 30;
+            this.prodotto17.ColorContrastOnHover = 30;
+            this.prodotto17.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto17.Image = null;
+            this.prodotto17.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto17.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto17.Immagine")));
+            this.prodotto17.Location = new System.Drawing.Point(281, 481);
+            this.prodotto17.Name = "prodotto17";
+            this.prodotto17.Nome = "Ralph Polo Bear";
+            this.prodotto17.Prezzo = "63.99€";
+            this.prodotto17.Recensioni = 2;
+            this.prodotto17.ShowBorders = true;
+            this.prodotto17.Size = new System.Drawing.Size(272, 233);
+            this.prodotto17.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto17.TabIndex = 7;
+            // 
+            // prodotto18
+            // 
+            this.prodotto18.AllowAnimations = false;
+            this.prodotto18.AllowBorderColorChanges = false;
+            this.prodotto18.AllowMouseEffects = false;
+            this.prodotto18.AnimationSpeed = 200;
+            this.prodotto18.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto18.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto18.BorderColor = System.Drawing.Color.White;
+            this.prodotto18.BorderRadius = 5;
+            this.prodotto18.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto18.BorderThickness = 1;
+            this.prodotto18.ColorContrastOnClick = 30;
+            this.prodotto18.ColorContrastOnHover = 30;
+            this.prodotto18.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto18.Image = null;
+            this.prodotto18.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto18.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto18.Immagine")));
+            this.prodotto18.Location = new System.Drawing.Point(559, 481);
+            this.prodotto18.Name = "prodotto18";
+            this.prodotto18.Nome = "Gray Ralph";
+            this.prodotto18.Prezzo = "55.00€";
+            this.prodotto18.Recensioni = 2;
+            this.prodotto18.ShowBorders = true;
+            this.prodotto18.Size = new System.Drawing.Size(272, 233);
+            this.prodotto18.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto18.TabIndex = 8;
+            this.prodotto18.Click += new System.EventHandler(this.prodotto18_Click);
+            // 
+            // prodotto19
+            // 
+            this.prodotto19.AllowAnimations = false;
+            this.prodotto19.AllowBorderColorChanges = false;
+            this.prodotto19.AllowMouseEffects = false;
+            this.prodotto19.AnimationSpeed = 200;
+            this.prodotto19.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto19.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto19.BorderColor = System.Drawing.Color.White;
+            this.prodotto19.BorderRadius = 5;
+            this.prodotto19.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto19.BorderThickness = 1;
+            this.prodotto19.ColorContrastOnClick = 30;
+            this.prodotto19.ColorContrastOnHover = 30;
+            this.prodotto19.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto19.Image = null;
+            this.prodotto19.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto19.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto19.Immagine")));
+            this.prodotto19.Location = new System.Drawing.Point(3, 720);
+            this.prodotto19.Name = "prodotto19";
+            this.prodotto19.Nome = "Black Ralph";
+            this.prodotto19.Prezzo = "55.00€";
+            this.prodotto19.Recensioni = 3;
+            this.prodotto19.ShowBorders = true;
+            this.prodotto19.Size = new System.Drawing.Size(272, 233);
+            this.prodotto19.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto19.TabIndex = 9;
+            // 
+            // prodotto20
+            // 
+            this.prodotto20.AllowAnimations = false;
+            this.prodotto20.AllowBorderColorChanges = false;
+            this.prodotto20.AllowMouseEffects = false;
+            this.prodotto20.AnimationSpeed = 200;
+            this.prodotto20.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto20.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto20.BorderColor = System.Drawing.Color.White;
+            this.prodotto20.BorderRadius = 5;
+            this.prodotto20.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto20.BorderThickness = 1;
+            this.prodotto20.ColorContrastOnClick = 30;
+            this.prodotto20.ColorContrastOnHover = 30;
+            this.prodotto20.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto20.Image = null;
+            this.prodotto20.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto20.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto20.Immagine")));
+            this.prodotto20.Location = new System.Drawing.Point(281, 720);
+            this.prodotto20.Name = "prodotto20";
+            this.prodotto20.Nome = "White Stone";
+            this.prodotto20.Prezzo = "95.50€";
+            this.prodotto20.Recensioni = 5;
+            this.prodotto20.ShowBorders = true;
+            this.prodotto20.Size = new System.Drawing.Size(272, 233);
+            this.prodotto20.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto20.TabIndex = 10;
+            // 
+            // prodotto21
+            // 
+            this.prodotto21.AllowAnimations = false;
+            this.prodotto21.AllowBorderColorChanges = false;
+            this.prodotto21.AllowMouseEffects = false;
+            this.prodotto21.AnimationSpeed = 200;
+            this.prodotto21.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto21.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto21.BorderColor = System.Drawing.Color.White;
+            this.prodotto21.BorderRadius = 5;
+            this.prodotto21.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto21.BorderThickness = 1;
+            this.prodotto21.ColorContrastOnClick = 30;
+            this.prodotto21.ColorContrastOnHover = 30;
+            this.prodotto21.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto21.Image = null;
+            this.prodotto21.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto21.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto21.Immagine")));
+            this.prodotto21.Location = new System.Drawing.Point(559, 720);
+            this.prodotto21.Name = "prodotto21";
+            this.prodotto21.Nome = "Black Stone";
+            this.prodotto21.Prezzo = "95.50€";
+            this.prodotto21.Recensioni = 5;
+            this.prodotto21.ShowBorders = true;
+            this.prodotto21.Size = new System.Drawing.Size(272, 233);
+            this.prodotto21.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto21.TabIndex = 11;
+            // 
+            // prodotto1
+            // 
+            this.prodotto1.AllowAnimations = false;
+            this.prodotto1.AllowBorderColorChanges = false;
+            this.prodotto1.AllowMouseEffects = false;
+            this.prodotto1.AnimationSpeed = 200;
+            this.prodotto1.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto1.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto1.BorderColor = System.Drawing.Color.White;
+            this.prodotto1.BorderRadius = 5;
+            this.prodotto1.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto1.BorderThickness = 1;
+            this.prodotto1.ColorContrastOnClick = 30;
+            this.prodotto1.ColorContrastOnHover = 30;
+            this.prodotto1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto1.Image = null;
+            this.prodotto1.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto1.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto1.Immagine")));
+            this.prodotto1.Location = new System.Drawing.Point(3, 959);
+            this.prodotto1.Name = "prodotto1";
+            this.prodotto1.Nome = "Red Stone";
+            this.prodotto1.Prezzo = "95.50€";
+            this.prodotto1.Recensioni = 4;
+            this.prodotto1.ShowBorders = true;
+            this.prodotto1.Size = new System.Drawing.Size(272, 233);
+            this.prodotto1.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto1.TabIndex = 12;
+            // 
+            // prodotto2
+            // 
+            this.prodotto2.AllowAnimations = false;
+            this.prodotto2.AllowBorderColorChanges = false;
+            this.prodotto2.AllowMouseEffects = false;
+            this.prodotto2.AnimationSpeed = 200;
+            this.prodotto2.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto2.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto2.BorderColor = System.Drawing.Color.White;
+            this.prodotto2.BorderRadius = 5;
+            this.prodotto2.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto2.BorderThickness = 1;
+            this.prodotto2.ColorContrastOnClick = 30;
+            this.prodotto2.ColorContrastOnHover = 30;
+            this.prodotto2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto2.Image = null;
+            this.prodotto2.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto2.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto2.Immagine")));
+            this.prodotto2.Location = new System.Drawing.Point(281, 959);
+            this.prodotto2.Name = "prodotto2";
+            this.prodotto2.Nome = "White Supreme";
+            this.prodotto2.Prezzo = "147.00€";
+            this.prodotto2.Recensioni = 4;
+            this.prodotto2.ShowBorders = true;
+            this.prodotto2.Size = new System.Drawing.Size(272, 233);
+            this.prodotto2.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto2.TabIndex = 13;
+            // 
+            // prodotto3
+            // 
+            this.prodotto3.AllowAnimations = false;
+            this.prodotto3.AllowBorderColorChanges = false;
+            this.prodotto3.AllowMouseEffects = false;
+            this.prodotto3.AnimationSpeed = 200;
+            this.prodotto3.BackColor = System.Drawing.Color.Transparent;
+            this.prodotto3.BackgroundColor = System.Drawing.Color.White;
+            this.prodotto3.BorderColor = System.Drawing.Color.White;
+            this.prodotto3.BorderRadius = 5;
+            this.prodotto3.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
+            this.prodotto3.BorderThickness = 1;
+            this.prodotto3.ColorContrastOnClick = 30;
+            this.prodotto3.ColorContrastOnHover = 30;
+            this.prodotto3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.prodotto3.Image = null;
+            this.prodotto3.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.prodotto3.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto3.Immagine")));
+            this.prodotto3.Location = new System.Drawing.Point(559, 959);
+            this.prodotto3.Name = "prodotto3";
+            this.prodotto3.Nome = "White VXUG";
+            this.prodotto3.Prezzo = "28.18€";
+            this.prodotto3.Recensioni = 3;
+            this.prodotto3.ShowBorders = true;
+            this.prodotto3.Size = new System.Drawing.Size(272, 233);
+            this.prodotto3.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
+            this.prodotto3.TabIndex = 14;
             // 
             // bunifuTextBox1
             // 
@@ -766,455 +1186,6 @@
             this.bunifuTextBox1.WordWrap = true;
             this.bunifuTextBox1.TextChanged += new System.EventHandler(this.bunifuTextBox1_TextChanged);
             // 
-            // prodotto10
-            // 
-            this.prodotto10.AllowAnimations = false;
-            this.prodotto10.AllowBorderColorChanges = false;
-            this.prodotto10.AllowMouseEffects = false;
-            this.prodotto10.AnimationSpeed = 200;
-            this.prodotto10.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto10.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto10.BorderColor = System.Drawing.Color.White;
-            this.prodotto10.BorderRadius = 5;
-            this.prodotto10.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto10.BorderThickness = 1;
-            this.prodotto10.ColorContrastOnClick = 30;
-            this.prodotto10.ColorContrastOnHover = 30;
-            this.prodotto10.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto10.Image = null;
-            this.prodotto10.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto10.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto10.Immagine")));
-            this.prodotto10.Location = new System.Drawing.Point(3, 3);
-            this.prodotto10.Name = "prodotto10";
-            this.prodotto10.Nome = "White Balenciaga";
-            this.prodotto10.Prezzo = "29.99€";
-            this.prodotto10.Recensioni = 3;
-            this.prodotto10.ShowBorders = true;
-            this.prodotto10.Size = new System.Drawing.Size(272, 233);
-            this.prodotto10.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto10.TabIndex = 0;
-            // 
-            // prodotto11
-            // 
-            this.prodotto11.AllowAnimations = false;
-            this.prodotto11.AllowBorderColorChanges = false;
-            this.prodotto11.AllowMouseEffects = false;
-            this.prodotto11.AnimationSpeed = 200;
-            this.prodotto11.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto11.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto11.BorderColor = System.Drawing.Color.White;
-            this.prodotto11.BorderRadius = 5;
-            this.prodotto11.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto11.BorderThickness = 1;
-            this.prodotto11.ColorContrastOnClick = 30;
-            this.prodotto11.ColorContrastOnHover = 30;
-            this.prodotto11.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto11.Image = null;
-            this.prodotto11.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto11.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto11.Immagine")));
-            this.prodotto11.Location = new System.Drawing.Point(281, 3);
-            this.prodotto11.Name = "prodotto11";
-            this.prodotto11.Nome = "Black Balenciaga";
-            this.prodotto11.Prezzo = "29.99€";
-            this.prodotto11.Recensioni = 4;
-            this.prodotto11.ShowBorders = true;
-            this.prodotto11.Size = new System.Drawing.Size(272, 233);
-            this.prodotto11.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto11.TabIndex = 1;
-            // 
-            // prodotto12
-            // 
-            this.prodotto12.AllowAnimations = false;
-            this.prodotto12.AllowBorderColorChanges = false;
-            this.prodotto12.AllowMouseEffects = false;
-            this.prodotto12.AnimationSpeed = 200;
-            this.prodotto12.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto12.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto12.BorderColor = System.Drawing.Color.White;
-            this.prodotto12.BorderRadius = 5;
-            this.prodotto12.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto12.BorderThickness = 1;
-            this.prodotto12.ColorContrastOnClick = 30;
-            this.prodotto12.ColorContrastOnHover = 30;
-            this.prodotto12.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto12.Image = null;
-            this.prodotto12.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto12.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto12.Immagine")));
-            this.prodotto12.Location = new System.Drawing.Point(559, 3);
-            this.prodotto12.Name = "prodotto12";
-            this.prodotto12.Nome = "Brown CK";
-            this.prodotto12.Prezzo = "43.50€";
-            this.prodotto12.Recensioni = 3;
-            this.prodotto12.ShowBorders = true;
-            this.prodotto12.Size = new System.Drawing.Size(272, 233);
-            this.prodotto12.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto12.TabIndex = 2;
-            // 
-            // prodotto13
-            // 
-            this.prodotto13.AllowAnimations = false;
-            this.prodotto13.AllowBorderColorChanges = false;
-            this.prodotto13.AllowMouseEffects = false;
-            this.prodotto13.AnimationSpeed = 200;
-            this.prodotto13.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto13.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto13.BorderColor = System.Drawing.Color.White;
-            this.prodotto13.BorderRadius = 5;
-            this.prodotto13.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto13.BorderThickness = 1;
-            this.prodotto13.ColorContrastOnClick = 30;
-            this.prodotto13.ColorContrastOnHover = 30;
-            this.prodotto13.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto13.Image = null;
-            this.prodotto13.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto13.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto13.Immagine")));
-            this.prodotto13.Location = new System.Drawing.Point(3, 242);
-            this.prodotto13.Name = "prodotto13";
-            this.prodotto13.Nome = "Black Octopus";
-            this.prodotto13.Prezzo = "49.00€";
-            this.prodotto13.Recensioni = 3;
-            this.prodotto13.ShowBorders = true;
-            this.prodotto13.Size = new System.Drawing.Size(272, 233);
-            this.prodotto13.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto13.TabIndex = 3;
-            // 
-            // prodotto14
-            // 
-            this.prodotto14.AllowAnimations = false;
-            this.prodotto14.AllowBorderColorChanges = false;
-            this.prodotto14.AllowMouseEffects = false;
-            this.prodotto14.AnimationSpeed = 200;
-            this.prodotto14.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto14.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto14.BorderColor = System.Drawing.Color.White;
-            this.prodotto14.BorderRadius = 5;
-            this.prodotto14.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto14.BorderThickness = 1;
-            this.prodotto14.ColorContrastOnClick = 30;
-            this.prodotto14.ColorContrastOnHover = 30;
-            this.prodotto14.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto14.Image = null;
-            this.prodotto14.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto14.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto14.Immagine")));
-            this.prodotto14.Location = new System.Drawing.Point(281, 242);
-            this.prodotto14.Name = "prodotto14";
-            this.prodotto14.Nome = "Black CK";
-            this.prodotto14.Prezzo = "39.00€";
-            this.prodotto14.Recensioni = 3;
-            this.prodotto14.ShowBorders = true;
-            this.prodotto14.Size = new System.Drawing.Size(272, 233);
-            this.prodotto14.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto14.TabIndex = 4;
-            // 
-            // prodotto15
-            // 
-            this.prodotto15.AllowAnimations = false;
-            this.prodotto15.AllowBorderColorChanges = false;
-            this.prodotto15.AllowMouseEffects = false;
-            this.prodotto15.AnimationSpeed = 200;
-            this.prodotto15.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto15.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto15.BorderColor = System.Drawing.Color.White;
-            this.prodotto15.BorderRadius = 5;
-            this.prodotto15.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto15.BorderThickness = 1;
-            this.prodotto15.ColorContrastOnClick = 30;
-            this.prodotto15.ColorContrastOnHover = 30;
-            this.prodotto15.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto15.Image = null;
-            this.prodotto15.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto15.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto15.Immagine")));
-            this.prodotto15.Location = new System.Drawing.Point(559, 242);
-            this.prodotto15.Name = "prodotto15";
-            this.prodotto15.Nome = "White Nike";
-            this.prodotto15.Prezzo = "22.47€";
-            this.prodotto15.Recensioni = 3;
-            this.prodotto15.ShowBorders = true;
-            this.prodotto15.Size = new System.Drawing.Size(272, 233);
-            this.prodotto15.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto15.TabIndex = 5;
-            // 
-            // prodotto16
-            // 
-            this.prodotto16.AllowAnimations = false;
-            this.prodotto16.AllowBorderColorChanges = false;
-            this.prodotto16.AllowMouseEffects = false;
-            this.prodotto16.AnimationSpeed = 200;
-            this.prodotto16.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto16.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto16.BorderColor = System.Drawing.Color.White;
-            this.prodotto16.BorderRadius = 5;
-            this.prodotto16.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto16.BorderThickness = 1;
-            this.prodotto16.ColorContrastOnClick = 30;
-            this.prodotto16.ColorContrastOnHover = 30;
-            this.prodotto16.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto16.Image = null;
-            this.prodotto16.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto16.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto16.Immagine")));
-            this.prodotto16.Location = new System.Drawing.Point(3, 481);
-            this.prodotto16.Name = "prodotto16";
-            this.prodotto16.Nome = "White Ralph";
-            this.prodotto16.Prezzo = "54.95€";
-            this.prodotto16.Recensioni = 3;
-            this.prodotto16.ShowBorders = true;
-            this.prodotto16.Size = new System.Drawing.Size(272, 233);
-            this.prodotto16.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto16.TabIndex = 6;
-            // 
-            // prodotto17
-            // 
-            this.prodotto17.AllowAnimations = false;
-            this.prodotto17.AllowBorderColorChanges = false;
-            this.prodotto17.AllowMouseEffects = false;
-            this.prodotto17.AnimationSpeed = 200;
-            this.prodotto17.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto17.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto17.BorderColor = System.Drawing.Color.White;
-            this.prodotto17.BorderRadius = 5;
-            this.prodotto17.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto17.BorderThickness = 1;
-            this.prodotto17.ColorContrastOnClick = 30;
-            this.prodotto17.ColorContrastOnHover = 30;
-            this.prodotto17.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto17.Image = null;
-            this.prodotto17.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto17.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto17.Immagine")));
-            this.prodotto17.Location = new System.Drawing.Point(281, 481);
-            this.prodotto17.Name = "prodotto17";
-            this.prodotto17.Nome = "Ralph Polo Bear";
-            this.prodotto17.Prezzo = "63.99€";
-            this.prodotto17.Recensioni = 3;
-            this.prodotto17.ShowBorders = true;
-            this.prodotto17.Size = new System.Drawing.Size(272, 233);
-            this.prodotto17.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto17.TabIndex = 7;
-            // 
-            // prodotto18
-            // 
-            this.prodotto18.AllowAnimations = false;
-            this.prodotto18.AllowBorderColorChanges = false;
-            this.prodotto18.AllowMouseEffects = false;
-            this.prodotto18.AnimationSpeed = 200;
-            this.prodotto18.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto18.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto18.BorderColor = System.Drawing.Color.White;
-            this.prodotto18.BorderRadius = 5;
-            this.prodotto18.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto18.BorderThickness = 1;
-            this.prodotto18.ColorContrastOnClick = 30;
-            this.prodotto18.ColorContrastOnHover = 30;
-            this.prodotto18.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto18.Image = null;
-            this.prodotto18.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto18.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto18.Immagine")));
-            this.prodotto18.Location = new System.Drawing.Point(559, 481);
-            this.prodotto18.Name = "prodotto18";
-            this.prodotto18.Nome = "Gray Ralph";
-            this.prodotto18.Prezzo = "55.00€";
-            this.prodotto18.Recensioni = 3;
-            this.prodotto18.ShowBorders = true;
-            this.prodotto18.Size = new System.Drawing.Size(272, 233);
-            this.prodotto18.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto18.TabIndex = 8;
-            this.prodotto18.Click += new System.EventHandler(this.prodotto18_Click);
-            // 
-            // prodotto19
-            // 
-            this.prodotto19.AllowAnimations = false;
-            this.prodotto19.AllowBorderColorChanges = false;
-            this.prodotto19.AllowMouseEffects = false;
-            this.prodotto19.AnimationSpeed = 200;
-            this.prodotto19.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto19.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto19.BorderColor = System.Drawing.Color.White;
-            this.prodotto19.BorderRadius = 5;
-            this.prodotto19.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto19.BorderThickness = 1;
-            this.prodotto19.ColorContrastOnClick = 30;
-            this.prodotto19.ColorContrastOnHover = 30;
-            this.prodotto19.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto19.Image = null;
-            this.prodotto19.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto19.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto19.Immagine")));
-            this.prodotto19.Location = new System.Drawing.Point(3, 720);
-            this.prodotto19.Name = "prodotto19";
-            this.prodotto19.Nome = "Black Ralph";
-            this.prodotto19.Prezzo = "55.00€";
-            this.prodotto19.Recensioni = 3;
-            this.prodotto19.ShowBorders = true;
-            this.prodotto19.Size = new System.Drawing.Size(272, 233);
-            this.prodotto19.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto19.TabIndex = 9;
-            // 
-            // prodotto20
-            // 
-            this.prodotto20.AllowAnimations = false;
-            this.prodotto20.AllowBorderColorChanges = false;
-            this.prodotto20.AllowMouseEffects = false;
-            this.prodotto20.AnimationSpeed = 200;
-            this.prodotto20.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto20.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto20.BorderColor = System.Drawing.Color.White;
-            this.prodotto20.BorderRadius = 5;
-            this.prodotto20.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto20.BorderThickness = 1;
-            this.prodotto20.ColorContrastOnClick = 30;
-            this.prodotto20.ColorContrastOnHover = 30;
-            this.prodotto20.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto20.Image = null;
-            this.prodotto20.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto20.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto20.Immagine")));
-            this.prodotto20.Location = new System.Drawing.Point(281, 720);
-            this.prodotto20.Name = "prodotto20";
-            this.prodotto20.Nome = "White Stone";
-            this.prodotto20.Prezzo = "95.50€";
-            this.prodotto20.Recensioni = 3;
-            this.prodotto20.ShowBorders = true;
-            this.prodotto20.Size = new System.Drawing.Size(272, 233);
-            this.prodotto20.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto20.TabIndex = 10;
-            // 
-            // prodotto21
-            // 
-            this.prodotto21.AllowAnimations = false;
-            this.prodotto21.AllowBorderColorChanges = false;
-            this.prodotto21.AllowMouseEffects = false;
-            this.prodotto21.AnimationSpeed = 200;
-            this.prodotto21.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto21.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto21.BorderColor = System.Drawing.Color.White;
-            this.prodotto21.BorderRadius = 5;
-            this.prodotto21.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto21.BorderThickness = 1;
-            this.prodotto21.ColorContrastOnClick = 30;
-            this.prodotto21.ColorContrastOnHover = 30;
-            this.prodotto21.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto21.Image = null;
-            this.prodotto21.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto21.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto21.Immagine")));
-            this.prodotto21.Location = new System.Drawing.Point(559, 720);
-            this.prodotto21.Name = "prodotto21";
-            this.prodotto21.Nome = "Black Stone";
-            this.prodotto21.Prezzo = "95.50€";
-            this.prodotto21.Recensioni = 3;
-            this.prodotto21.ShowBorders = true;
-            this.prodotto21.Size = new System.Drawing.Size(272, 233);
-            this.prodotto21.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto21.TabIndex = 11;
-            // 
-            // prodotto1
-            // 
-            this.prodotto1.AllowAnimations = false;
-            this.prodotto1.AllowBorderColorChanges = false;
-            this.prodotto1.AllowMouseEffects = false;
-            this.prodotto1.AnimationSpeed = 200;
-            this.prodotto1.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto1.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto1.BorderColor = System.Drawing.Color.White;
-            this.prodotto1.BorderRadius = 5;
-            this.prodotto1.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto1.BorderThickness = 1;
-            this.prodotto1.ColorContrastOnClick = 30;
-            this.prodotto1.ColorContrastOnHover = 30;
-            this.prodotto1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto1.Image = null;
-            this.prodotto1.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto1.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto1.Immagine")));
-            this.prodotto1.Location = new System.Drawing.Point(3, 959);
-            this.prodotto1.Name = "prodotto1";
-            this.prodotto1.Nome = "Red Stone";
-            this.prodotto1.Prezzo = "95.50€";
-            this.prodotto1.Recensioni = 3;
-            this.prodotto1.ShowBorders = true;
-            this.prodotto1.Size = new System.Drawing.Size(272, 233);
-            this.prodotto1.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto1.TabIndex = 12;
-            // 
-            // prodotto2
-            // 
-            this.prodotto2.AllowAnimations = false;
-            this.prodotto2.AllowBorderColorChanges = false;
-            this.prodotto2.AllowMouseEffects = false;
-            this.prodotto2.AnimationSpeed = 200;
-            this.prodotto2.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto2.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto2.BorderColor = System.Drawing.Color.White;
-            this.prodotto2.BorderRadius = 5;
-            this.prodotto2.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto2.BorderThickness = 1;
-            this.prodotto2.ColorContrastOnClick = 30;
-            this.prodotto2.ColorContrastOnHover = 30;
-            this.prodotto2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto2.Image = null;
-            this.prodotto2.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto2.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto2.Immagine")));
-            this.prodotto2.Location = new System.Drawing.Point(281, 959);
-            this.prodotto2.Name = "prodotto2";
-            this.prodotto2.Nome = "White Supreme";
-            this.prodotto2.Prezzo = "147.00€";
-            this.prodotto2.Recensioni = 3;
-            this.prodotto2.ShowBorders = true;
-            this.prodotto2.Size = new System.Drawing.Size(272, 233);
-            this.prodotto2.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto2.TabIndex = 13;
-            // 
-            // prodotto3
-            // 
-            this.prodotto3.AllowAnimations = false;
-            this.prodotto3.AllowBorderColorChanges = false;
-            this.prodotto3.AllowMouseEffects = false;
-            this.prodotto3.AnimationSpeed = 200;
-            this.prodotto3.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto3.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto3.BorderColor = System.Drawing.Color.White;
-            this.prodotto3.BorderRadius = 5;
-            this.prodotto3.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto3.BorderThickness = 1;
-            this.prodotto3.ColorContrastOnClick = 30;
-            this.prodotto3.ColorContrastOnHover = 30;
-            this.prodotto3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto3.Image = null;
-            this.prodotto3.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto3.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto3.Immagine")));
-            this.prodotto3.Location = new System.Drawing.Point(559, 959);
-            this.prodotto3.Name = "prodotto3";
-            this.prodotto3.Nome = "White VXUG";
-            this.prodotto3.Prezzo = "28.18€";
-            this.prodotto3.Recensioni = 3;
-            this.prodotto3.ShowBorders = true;
-            this.prodotto3.Size = new System.Drawing.Size(272, 233);
-            this.prodotto3.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto3.TabIndex = 14;
-            // 
-            // prodotto4
-            // 
-            this.prodotto4.AllowAnimations = false;
-            this.prodotto4.AllowBorderColorChanges = false;
-            this.prodotto4.AllowMouseEffects = false;
-            this.prodotto4.AnimationSpeed = 200;
-            this.prodotto4.BackColor = System.Drawing.Color.Transparent;
-            this.prodotto4.BackgroundColor = System.Drawing.Color.White;
-            this.prodotto4.BorderColor = System.Drawing.Color.White;
-            this.prodotto4.BorderRadius = 5;
-            this.prodotto4.BorderStyle = Bunifu.UI.WinForms.BunifuUserControl.BorderStyles.Solid;
-            this.prodotto4.BorderThickness = 1;
-            this.prodotto4.ColorContrastOnClick = 30;
-            this.prodotto4.ColorContrastOnHover = 30;
-            this.prodotto4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.prodotto4.Image = null;
-            this.prodotto4.ImageMargin = new System.Windows.Forms.Padding(0);
-            this.prodotto4.Immagine = ((System.Drawing.Image)(resources.GetObject("prodotto4.Immagine")));
-            this.prodotto4.Location = new System.Drawing.Point(3, 1198);
-            this.prodotto4.Name = "prodotto4";
-            this.prodotto4.Nome = "Ciao";
-            this.prodotto4.Prezzo = "100";
-            this.prodotto4.Recensioni = 5;
-            this.prodotto4.ShowBorders = true;
-            this.prodotto4.Size = new System.Drawing.Size(272, 233);
-            this.prodotto4.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
-            this.prodotto4.TabIndex = 15;
-            // 
             // Maglie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1245,7 +1216,7 @@
         private System.Windows.Forms.PictureBox pcbYouTubeM;
         private System.Windows.Forms.PictureBox pcbFacebookM;
         private System.Windows.Forms.PictureBox pcbInstagramM;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton8;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnCarrelloM;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnScarpeM;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnPantaloniM;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton5;
@@ -1271,6 +1242,5 @@
         private Prodotto prodotto1;
         private Prodotto prodotto2;
         private Prodotto prodotto3;
-        private Prodotto prodotto4;
     }
 }

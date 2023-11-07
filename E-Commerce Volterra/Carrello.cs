@@ -17,5 +17,10 @@ namespace E_Commerce_Volterra
             InitializeComponent();
         }
 
+        private void pcbHomeC_Click(object sender, EventArgs e)
+        {
+            new Principale().Show();
+            this.Hide();
+        }
     }
 }

@@ -78,5 +78,11 @@ namespace E_Commerce_Volterra
                 }
             }
         }
+
+        private void btnCarrelloS_Click(object sender, EventArgs e)
+        {
+            new Carrello().Show();
+            this.Hide();
+        }
     }
 }

@@ -78,7 +78,7 @@ namespace E_Commerce_Volterra
                 using (StreamReader sr = new StreamReader("credenziali.txt"))
                 {
                     string riga;
-                    // Leggo tutte le righe del file.
+                    // Leggo tutte le righe del file
                     while ((riga = sr.ReadLine()) != null)
                     {
                         // Controllo se la riga contiene lo username inserito dall'utente
@@ -96,7 +96,7 @@ namespace E_Commerce_Volterra
 
                 MessageBox.Show("Registrazione completata con successo", "Successo", MessageBoxButtons.OK);
 
-                // Apro il file credenziali.txt dove aggiungo lo username e la password.
+                // Apro il file credenziali.txt dove aggiungo lo username e la password
                 using (StreamWriter sw = new StreamWriter("credenziali.txt", true))
                 {
                     sw.WriteLine($"Username: {username}, Password: {password}");
