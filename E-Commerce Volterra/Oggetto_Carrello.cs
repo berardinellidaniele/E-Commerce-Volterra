@@ -10,13 +10,14 @@ using System.Windows.Forms;
 
 namespace E_Commerce_Volterra
 {
-    public partial class Oggetto_Carrello : UserControl
+    public partial class Oggetto_Carrello : UserControl // Concetto di ereditarietà tra la classe Oggetto_Carrello e lo UserControl
     {
 
-		public C_Prodotto pr { get; set; }
+		public C_Prodotto pr { get; set; } // Proprietà per rappresentare il prodotto associato a questo oggetto carrello
 
-		public Oggetto_Carrello(C_Prodotto pr, Image logo = null) 
+		public Oggetto_Carrello(C_Prodotto pr, Image logo = null) // Costruttore
         {
+			// Varie proprietà
             InitializeComponent();
 			this.pr = pr;
 			this.Immagine = logo;
@@ -51,6 +52,7 @@ namespace E_Commerce_Volterra
 			}
 		}
 
+		// Imposto la quantità dell'oggetto
 		public string Quantita
 		{
 			get { return lblQuantita.Text; }
@@ -60,6 +62,7 @@ namespace E_Commerce_Volterra
 			}
 		}
 
+		// Ottengo il prezzo dell'oggetto
 		public string Cifra
 		{
 			get
@@ -74,12 +77,14 @@ namespace E_Commerce_Volterra
 
         private void pcbAggiungi_Click(object sender, EventArgs e)
         {
+			// Quando l'utente preme il tasto per aggiungere l'oggetto lo incremento
 			pr.Quantita++;
 			aggiorna();
 		}
 
         private void pcbRimuovi_Click(object sender, EventArgs e)
         {
+			// Rimuovo il prodotto dall'elenco dei prodotti e l'oggetto carrello
 			for (int i = 0; i < Principale.prodotti.Count; i++)
 			{
 				if (Principale.prodotti[i].Nome == this.Nome)
@@ -93,6 +98,7 @@ namespace E_Commerce_Volterra
 			aggiorna();
 		}
 
+		// Metodo per aggiornare l'interfaccia
 		private void aggiorna()
 		{
 			new Carrello().Show();
