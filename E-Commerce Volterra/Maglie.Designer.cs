@@ -686,7 +686,6 @@
             this.flowLayout.Name = "flowLayout";
             this.flowLayout.Size = new System.Drawing.Size(861, 619);
             this.flowLayout.TabIndex = 4;
-            this.flowLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayout_Paint);
             // 
             // prodotto10
             // 
@@ -939,7 +938,6 @@
             this.prodotto18.Size = new System.Drawing.Size(272, 233);
             this.prodotto18.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
             this.prodotto18.TabIndex = 8;
-            this.prodotto18.Click += new System.EventHandler(this.prodotto18_Click);
             // 
             // prodotto19
             // 

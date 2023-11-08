@@ -68,27 +68,19 @@ namespace E_Commerce_Volterra
         {
             string stringa = bunifuTextBox1.Text.ToLower();
 
+            // Per ogni prodotto nel flowLayout controllo se trova la stringa
+
             foreach (Prodotto prodotto in flowLayout.Controls)
             {
                 if (prodotto.Nome.ToLower().Contains(stringa))
                 {
-                    prodotto.Visible = true;
+                    prodotto.Visible = true; // Se il prodotto viene trovato è visibile nel flowLayout
                 }
                 else
                 {
-                    prodotto.Visible = false;
+                    prodotto.Visible = false; // Se il prodotto non viene trovato non è visibile nel flowLayout
                 }
             }
-        }
-
-        private void prodotto18_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void flowLayout_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void btnCarrelloM_Click(object sender, EventArgs e)

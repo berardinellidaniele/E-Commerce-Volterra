@@ -47,7 +47,7 @@
             this.lblBentornato.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
             this.lblBentornato.Location = new System.Drawing.Point(31, 64);
             this.lblBentornato.Name = "lblBentornato";
-            this.lblBentornato.Size = new System.Drawing.Size(149, 27);
+            this.lblBentornato.Size = new System.Drawing.Size(184, 34);
             this.lblBentornato.TabIndex = 12;
             this.lblBentornato.Text = "Bentornato";
             // 
@@ -56,7 +56,7 @@
             this.lblUsernameL.AutoSize = true;
             this.lblUsernameL.Location = new System.Drawing.Point(33, 119);
             this.lblUsernameL.Name = "lblUsernameL";
-            this.lblUsernameL.Size = new System.Drawing.Size(69, 17);
+            this.lblUsernameL.Size = new System.Drawing.Size(89, 23);
             this.lblUsernameL.TabIndex = 13;
             this.lblUsernameL.Text = "Username";
             // 
@@ -68,7 +68,7 @@
             this.txbusernameL.Font = new System.Drawing.Font("MS UI Gothic", 15.75F);
             this.txbusernameL.Location = new System.Drawing.Point(38, 139);
             this.txbusernameL.Name = "txbusernameL";
-            this.txbusernameL.Size = new System.Drawing.Size(216, 21);
+            this.txbusernameL.Size = new System.Drawing.Size(216, 27);
             this.txbusernameL.TabIndex = 14;
             // 
             // lblPasswordL
@@ -76,7 +76,7 @@
             this.lblPasswordL.AutoSize = true;
             this.lblPasswordL.Location = new System.Drawing.Point(33, 179);
             this.lblPasswordL.Name = "lblPasswordL";
-            this.lblPasswordL.Size = new System.Drawing.Size(66, 17);
+            this.lblPasswordL.Size = new System.Drawing.Size(84, 23);
             this.lblPasswordL.TabIndex = 15;
             this.lblPasswordL.Text = "Password";
             // 
@@ -89,7 +89,7 @@
             this.txbPasswordL.Location = new System.Drawing.Point(36, 199);
             this.txbPasswordL.Name = "txbPasswordL";
             this.txbPasswordL.PasswordChar = '*';
-            this.txbPasswordL.Size = new System.Drawing.Size(216, 21);
+            this.txbPasswordL.Size = new System.Drawing.Size(216, 27);
             this.txbPasswordL.TabIndex = 27;
             // 
             // cmbPasswordL
@@ -99,7 +99,7 @@
             this.cmbPasswordL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmbPasswordL.Location = new System.Drawing.Point(127, 230);
             this.cmbPasswordL.Name = "cmbPasswordL";
-            this.cmbPasswordL.Size = new System.Drawing.Size(129, 21);
+            this.cmbPasswordL.Size = new System.Drawing.Size(163, 27);
             this.cmbPasswordL.TabIndex = 28;
             this.cmbPasswordL.Text = "Mostra Password";
             this.cmbPasswordL.UseVisualStyleBackColor = true;
@@ -135,9 +135,9 @@
             // lblNonhaiunaccount
             // 
             this.lblNonhaiunaccount.AutoSize = true;
-            this.lblNonhaiunaccount.Location = new System.Drawing.Point(76, 387);
+            this.lblNonhaiunaccount.Location = new System.Drawing.Point(62, 387);
             this.lblNonhaiunaccount.Name = "lblNonhaiunaccount";
-            this.lblNonhaiunaccount.Size = new System.Drawing.Size(135, 17);
+            this.lblNonhaiunaccount.Size = new System.Drawing.Size(171, 23);
             this.lblNonhaiunaccount.TabIndex = 29;
             this.lblNonhaiunaccount.Text = "Non hai un account?";
             // 
@@ -146,16 +146,16 @@
             this.lblCreaunaccount.AutoSize = true;
             this.lblCreaunaccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblCreaunaccount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.lblCreaunaccount.Location = new System.Drawing.Point(90, 409);
+            this.lblCreaunaccount.Location = new System.Drawing.Point(81, 409);
             this.lblCreaunaccount.Name = "lblCreaunaccount";
-            this.lblCreaunaccount.Size = new System.Drawing.Size(107, 17);
+            this.lblCreaunaccount.Size = new System.Drawing.Size(138, 23);
             this.lblCreaunaccount.TabIndex = 23;
             this.lblCreaunaccount.Text = "Crea un account";
             this.lblCreaunaccount.Click += new System.EventHandler(this.lblCreaunaccount_Click);
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(302, 486);

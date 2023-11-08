@@ -31,7 +31,7 @@ namespace E_Commerce_Volterra
 
         private void btnPantaloniP_Click(object sender, EventArgs e)
         {
-            //
+            // Non apro nessun Form perchè sono già in quello dei pantaloni
         }
 
         private void btnScarpeP_Click(object sender, EventArgs e)
@@ -66,21 +66,24 @@ namespace E_Commerce_Volterra
         {
             string stringa = bunifuTextBox1.Text.ToLower();
 
+            // Per ogni prodotto nel flowLayout controllo se trova la stringa
+
             foreach (Prodotto prodotto in flawlayout.Controls)
             {
                 if (prodotto.Nome.ToLower().Contains(stringa))
                 {
-                    prodotto.Visible = true;
+                    prodotto.Visible = true; // Se il prodotto viene trovato è visibile nel flowLayout
                 }
                 else
                 {
-                    prodotto.Visible = false;
+                    prodotto.Visible = false; // Se il prodotto non viene trovato non è visibile nel flowLayout
                 }
             }
         }
 
         private void btnCarrelloP_Click(object sender, EventArgs e)
         {
+            // Apro il form del carrello
             new Carrello().Show();
             this.Hide();
         }

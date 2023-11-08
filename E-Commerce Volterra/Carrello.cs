@@ -84,7 +84,7 @@ namespace E_Commerce_Volterra
 
             foreach(var oggettoCarrello in Elementi_Carrello)
             {
-                prezzototale += oggettoCarrello.pr.Prezzo;
+                prezzototale += oggettoCarrello.pr.Prezzo * Convert.ToDouble(oggettoCarrello.Quantita);
             }
 
             return prezzototale.ToString();

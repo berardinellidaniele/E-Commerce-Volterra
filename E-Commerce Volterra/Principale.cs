@@ -73,23 +73,29 @@ namespace E_Commerce_Volterra
 
         private void bunifuTextBox1_TextChanged(object sender, EventArgs e)
         {
+            // Implemento la barra di ricerca
+
+            // Dichiaro la stringa da cercare
             string stringa = bunifuTextBox1.Text.ToLower();
 
             foreach (Prodotto prodotto in flowLayout.Controls)
             {
+                // Per ogni prodotto nel flowLayout controllo se trova la stringa
+
                 if (prodotto.Nome.ToLower().Contains(stringa))
                 {
-                    prodotto.Visible = true;
+                    prodotto.Visible = true; // Se il prodotto viene trovato è visibile nel flowLayout
                 }
                 else
                 {
-                    prodotto.Visible = false;
+                    prodotto.Visible = false; // Se il prodotto non viene trovato non è visibile nel flowLayout
                 }
             }
         }
 
         private void btnCarrello_Click(object sender, EventArgs e)
         {
+            // Apro il form del carrello
             new Carrello().Show();
             this.Hide();
         }
