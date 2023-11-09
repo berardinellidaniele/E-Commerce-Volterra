@@ -20,7 +20,6 @@ Un progetto per gestire un e-commerce in Windows Forms C#
 **Bunifu** è un framework per migliorare l'interfaccia grafica. Esso include degli elementi grafici non disponibili in WinForms.
 
 
-
 ## Diagrammi UML
 
 ### Diagramma della classe User
