@@ -10,3 +10,12 @@ Un progetto per gestire un e-commerce in Windows Forms C#
 
 ### Fatto ✓
 - [x] //  
+
+```mermaid
+classDiagram
+    class User {
+      -string Username
+      -string Password
+      +User(string, string)
+      +bool CheckPassword(string)
+    }
