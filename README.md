@@ -1,6 +1,8 @@
 # E-Clothes
 Un progetto per gestire un e-commerce in Windows Forms C#
 
+![E-Clothes Home](https://github.com/0xBerard/E-Commerce-Volterra/blob/main/principale.jpg)
+
 ## Da fare
 - [ ] Commentare il codice
 - [ ] Creare gli schemi UML
