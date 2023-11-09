@@ -14,7 +14,7 @@ Un progetto per gestire un e-commerce in Windows Forms C#
 
 ## Framework Utilizzati
 
-![Bunifu Framework](path-to-your-image)
+![Bunifu Framework](https://github.com/0xBerard/E-Commerce-Volterra/blob/main/bunifu.png)
 
 Bunifu è un framework per migliorare l'interfaccia grafica.
 
