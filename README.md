@@ -12,6 +12,13 @@ Un progetto per gestire un e-commerce in Windows Forms C#
 - [x] Crare l'interfaccia di register e login
 - [x] Creare l'interfaccia principale
 
+## Framework Utilizzati
+
+![Bunifu Framework](path-to-your-image)
+
+Bunifu è un framework per migliorare l'interfaccia grafica.
+
+
 ## Diagrammi UML
 
 ### Diagramma della classe User
