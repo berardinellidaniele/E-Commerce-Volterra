@@ -1,4 +1,4 @@
-# E-Clothes
+# E-Clothes gang
 Un progetto per gestire un e-commerce in Windows Forms C#
 
 ![E-Clothes Home](https://github.com/0xBerard/E-Commerce-Volterra/blob/main/principale.jpg)
